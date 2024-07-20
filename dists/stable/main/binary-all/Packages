@@ -7,11 +7,11 @@ Homepage: https://curl.se/docs/caextract.html
 Depends: ca-certificates (= 1:2024.07.02)
 Description: Common CA certificates (java keystore format)
 Filename: dists/stable/main/binary-all/ca-certificates-java_1:2024.07.02_all.deb
-Size: 114556
-MD5Sum: 107b7369024ff95dfbdc24e93673bc4e
-SHA1: 26178af730442d1f9f06af054e5007413cea6ee6
-SHA256: 78c1d8a298de89449f63a9adf6c4d94cc1ff4fc9f40236df7d12e09ce9d33b5e
-SHA512: 14d2ef0a0729d216b39bbb0e5feaf0f0946f2c42c4f7850daedb3b50ccf96f4a9b3560ab6b388c5a32cb677203a9d4e6c2e754048744c88fe2ad728cd0189a68
+Size: 114544
+MD5Sum: 6ae1c8701c8a9fb621082a889dd3acb7
+SHA1: 11f22fe078953a17aaafc47868d82adf407df11d
+SHA256: 1a4ab21974f08a01388db5354cbfa6c07d2942bfd4199e9e6835aa5cf71f67a6
+SHA512: c8613bc9bdfc5d73e124594eaf95041b7a07f592ebef8a8308712369f75a2e50fc0d0b047578fa8c7f2d5a22d98ba4f1b7550275c8bf972b218203bb48024510
 
 Package: ca-certificates
 Architecture: all
@@ -21,11 +21,56 @@ Version: 1:2024.07.02
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates
 Filename: dists/stable/main/binary-all/ca-certificates_1:2024.07.02_all.deb
-Size: 125288
-MD5Sum: 6ed03b6590c3ef62a7dbba42b0d35baa
-SHA1: 689013e8adafa7028b5aea9b8678660af2104e32
-SHA256: b8297de1ef47bf5037f8b154f64dc41d527326ca6f6d7e712161e37239a7740e
-SHA512: cfd0ac0f37436a84ac642e3bb10eabbe37a9f482009c7b23c420b2d1b89592092e231dc0c71372ed3b61b5fabf35396f3a07c560e56cdd7520bcd24ab0bd5057
+Size: 125280
+MD5Sum: 9eae1900227852a5dca2c24c5ffde914
+SHA1: 8a46673fe29754e7c964a9908892174dfcd7650b
+SHA256: 58f26b4bf0b1392e7b7c2c8c0f6f5a2a404f77517db2e6b445a19250e07b2cbd
+SHA512: 2b13b0f87dee9e8b6422821741a8520bf8148e79cf91c603049ef85a55d41b07e7cb9796b640bc21e3c2cbbd7cc1fc03ee93fd8226c96c4ed8089ca15e4785e8
+
+Package: dpkg-perl
+Architecture: all
+Installed-Size: 940
+Maintainer: @termux
+Version: 1.22.6
+Homepage: https://packages.debian.org/dpkg
+Depends: perl, clang, make, dpkg (= 1.22.6)
+Description: Perl modules for dpkg
+Filename: dists/stable/main/binary-all/dpkg-perl_1.22.6_all.deb
+Size: 126220
+MD5Sum: 1aca4946eda11adefac6ae56add2ac02
+SHA1: 63373f6f15a22c1c90349a2d75c43265954d0755
+SHA256: 2f26d592678c0e81905fecc8fa48f21dee8cb6dce63b34aedf45392018942d8d
+SHA512: b533b9248e7bd35accda6489032a3caedd6b2c7e2b2b2b97d9f7c8e6537eaece2434719605d0c94df8bc0a71a255894b40b27299f537a6fb7f964745a8269219
+
+Package: dpkg-scanpackages
+Architecture: all
+Installed-Size: 56
+Maintainer: @termux
+Version: 1.22.6
+Homepage: https://packages.debian.org/dpkg
+Depends: dpkg-perl, dpkg (= 1.22.6)
+Description: Creates Packages index files
+Filename: dists/stable/main/binary-all/dpkg-scanpackages_1.22.6_all.deb
+Size: 6756
+MD5Sum: 7cde092c34156942a509fa0c19d6137d
+SHA1: a340761d3d0639414085d881163e6f33dc59f5da
+SHA256: 3d50d791432107c8b2102550237dcfc4342ad2d48e61977aea0fe30bd745b7aa
+SHA512: bd123d1cefbc6f9a90e002f5c2e1bb67f9a72148956a77c685d9930c85d1226fb4242ee446944608d978e4a543b60e1331796a78a1381d79af54cc9bf5d155a9
+
+Package: faustlibraries
+Architecture: all
+Installed-Size: 1844
+Maintainer: @termux
+Version: 2.70.3
+Homepage: https://github.com/grame-cncm/faust
+Depends: faust
+Description: Faust DSP libraries
+Filename: dists/stable/main/binary-all/faustlibraries_2.70.3_all.deb
+Size: 323028
+MD5Sum: 29f2841848356d21dd313ea1b5ada2b0
+SHA1: 31a886c59146dcecee3f4f4ab47cbe28a7294e6d
+SHA256: 4db522041265c3b5845e8f4c34aed70acca694bfc40981c357d5b0f20fccb331
+SHA512: 1b3f9cfaa79499be1de6b394065283a03e2c2f644fed8a2fba78f0f7e48143dcdb823cb4d7b4ce7c2a90460ddaaf5f0b63207d91faa6b1aad53c253eecfbbda3
 
 Package: git-svn
 Architecture: all
@@ -70,10 +115,25 @@ Conflicts: termux-tools (<< 0.51)
 Description: Android Oreo-compatible am command reimplementation
 Filename: dists/stable/main/binary-all/termux-am_0.8.0_all.deb
 Size: 577252
-MD5Sum: 4dc1bd2ac8b9d728169732e8405ac952
-SHA1: 5eab51ba567d0ee06bb4e39165641b1fb55aabc4
-SHA256: 30eb8b393165651c62fa10097f2e046217ddc73bf14113efb0fd80c081278d8f
-SHA512: 6da96ced087a234ae9d931dbd8a44c77cdcc5df08a032b269791a42e4dcec703ee9a851ee5b1539e61ec8d17660b522549c1e2043f7d8982e4889924bdb11477
+MD5Sum: ce9cdbbd112c7963220c7f4b2dd7888b
+SHA1: a57f1f9059c4f55897b5ea9483936d6723934968
+SHA256: 040465920af7412d7e74ddab211196faeb2479674f5d26cdeb865730a060207b
+SHA512: 89f36b4f47a9254ae300be47b60e22426467637c8ed918f0724aa8c875dfcf194cd7b9115be685c8f91d78d9c9d64a85cab52d2f596442cf70f4f42fb3eea4c8
+
+Package: termux-keyring
+Architecture: all
+Installed-Size: 192
+Maintainer: @termux
+Version: 3.12
+Homepage: https://github.com/termux
+Essential: yes
+Description: GPG public keys for the official Termux repositories
+Filename: dists/stable/main/binary-all/termux-keyring_3.12_all.deb
+Size: 43508
+MD5Sum: 2f5e3a788792048289d34ec81c0785ff
+SHA1: ac8ae3ff9d94acc4fdd75009acf32f0265110d1b
+SHA256: 695edc71f2c08576a5301108963687ca24a8bd20296c55090b9e3f5fa8247fe5
+SHA512: f32e76c3943bf1a4e2bd7364824d9651d6998601a5051f4d70f844ddb6ed967a8005df9de41dd7faa06b8710b849d880652ee350ee95c6d5177cadff72ef2d0a
 
 Package: termux-tools
 Architecture: all
