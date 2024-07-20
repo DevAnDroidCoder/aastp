@@ -16866,6 +16866,9 @@ data/data/com.icst.android.appstudio/files/usr/share/man/mann/yieldto.n.gz      
 data/data/com.icst.android.appstudio/files/usr/share/man/mann/zlib.n.gz          tcl
 data/data/com.icst.android.appstudio/files/usr/lib/libtergent.so                 tergent
 data/data/com.icst.android.appstudio/files/usr/share/doc/tergent/LICENSE         tergent
+data/data/com.icst.android.appstudio/files/usr/bin/termux-am                     termux-am-socket
+data/data/com.icst.android.appstudio/files/usr/bin/termux-am-socket              termux-am-socket
+data/data/com.icst.android.appstudio/files/usr/share/doc/termux-am-socket/LICENSE termux-am-socket
 data/data/com.icst.android.appstudio/files/usr/bin/wish                          tk
 data/data/com.icst.android.appstudio/files/usr/bin/wish8.6                       tk
 data/data/com.icst.android.appstudio/files/usr/include/tk-private/compat/stdlib.h tk

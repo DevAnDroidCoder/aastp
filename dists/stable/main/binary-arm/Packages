@@ -2029,6 +2029,21 @@ SHA1: b88d5f22e4fdbbce238e644918d341932992fc3c
 SHA256: 9227daa7b24b6e518ee3a434f45dc709a8161460dc212ccb851944a47f897879
 SHA512: f0fbd90143bbe60ded7c04e3dd05a95df42a747b5fe5dc7a0485e94a0c76fc303a50561c2a658a6cf0f0ad07ff02f6d4c9cf9b71a0cc46c7680c4425f5e86470
 
+Package: termux-am-socket
+Architecture: arm
+Installed-Size: 60
+Maintainer: @termux
+Version: 1.5.0
+Homepage: https://github.com/termux/termux-am-socket
+Depends: libc++
+Description: A faster version of am with less features that only works while Termux is running
+Filename: dists/stable/main/binary-arm/termux-am-socket_1.5.0_arm.deb
+Size: 6708
+MD5Sum: 4731f129081876b618785efea25e4c21
+SHA1: b0572561295c4288cca8ae75c33534ab4100e925
+SHA256: 5929f569998f1c4c28987f438c0815ccaee39825aa9090615dc5863a270b1aac
+SHA512: 74545161e1525f956f69a6367bf2f5f95a802a8d6fe22268a10e7a03d31e59d9797bca786e3316741f09cd8b7a903c0e38b2cf740782a7ebba5826c86573e54d
+
 Package: tk
 Architecture: arm
 Installed-Size: 5080
