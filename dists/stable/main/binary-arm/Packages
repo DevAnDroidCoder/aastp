@@ -2044,6 +2044,21 @@ SHA1: b0572561295c4288cca8ae75c33534ab4100e925
 SHA256: 5929f569998f1c4c28987f438c0815ccaee39825aa9090615dc5863a270b1aac
 SHA512: 74545161e1525f956f69a6367bf2f5f95a802a8d6fe22268a10e7a03d31e59d9797bca786e3316741f09cd8b7a903c0e38b2cf740782a7ebba5826c86573e54d
 
+Package: termux-exec
+Architecture: arm
+Installed-Size: 48
+Maintainer: @termux
+Version: 1:1.0
+Homepage: https://github.com/termux/termux-exec
+Essential: yes
+Description: An execve() wrapper to make /bin and /usr/bin shebangs work
+Filename: dists/stable/main/binary-arm/termux-exec_1:1.0_arm.deb
+Size: 3244
+MD5Sum: 1b0d96ba708dffcc0aa3ae3420ae16b2
+SHA1: 72067bf0ee62381f40abd0754d755da4313e3b80
+SHA256: ab1a97ad9954fcae058fc90fbffabae2ddf6c0efe09ee51b135e971c46581ca2
+SHA512: 66224e880544709fbfa7618dc1b0b260d0689837b17014599ebd42f5480a5afa69e7baccac77a256bb25c12355a17ffe4724e8d1641064a7b3f358e58efa5e35
+
 Package: tk
 Architecture: arm
 Installed-Size: 5080

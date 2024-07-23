@@ -16869,6 +16869,8 @@ data/data/com.icst.android.appstudio/files/usr/share/doc/tergent/LICENSE        
 data/data/com.icst.android.appstudio/files/usr/bin/termux-am                     termux-am-socket
 data/data/com.icst.android.appstudio/files/usr/bin/termux-am-socket              termux-am-socket
 data/data/com.icst.android.appstudio/files/usr/share/doc/termux-am-socket/LICENSE termux-am-socket
+data/data/com.icst.android.appstudio/files/usr/lib/libtermux-exec.so             termux-exec
+data/data/com.icst.android.appstudio/files/usr/share/doc/termux-exec/LICENSE     termux-exec
 data/data/com.icst.android.appstudio/files/usr/bin/wish                          tk
 data/data/com.icst.android.appstudio/files/usr/bin/wish8.6                       tk
 data/data/com.icst.android.appstudio/files/usr/include/tk-private/compat/stdlib.h tk
