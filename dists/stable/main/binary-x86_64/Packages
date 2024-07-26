@@ -130,6 +130,21 @@ SHA1: 27af5f7bf99b974df8bede3f58e835acc651fac4
 SHA256: 5b5a0b33fae158662ec27908205c73455619ae31aeab8fa9388e25d80b00ede4
 SHA512: a90ad5750402eba59913371c66ef2ca2a9f797dd36d1399be6455d380e3a58e5c0aa70616a52ff6800121880eeb94e973e05f7cbfcb5be165c0b95c1b782a5aa
 
+Package: command-not-found
+Architecture: x86_64
+Installed-Size: 88
+Maintainer: @termux
+Version: 2.4.0-32
+Homepage: https://github.com/termux/command-not-found
+Depends: libc++
+Description: Suggest installation of packages in interactive shell sessions
+Filename: dists/stable/main/binary-x86_64/command-not-found_2.4.0-32_x86_64.deb
+Size: 17060
+MD5Sum: 547c2fafa60ae5af6947a31ca4b532ed
+SHA1: 56d3fbf85afa4faba08d6d7196c6848f22dbc67f
+SHA256: d77607adc5b8100ef19605999060a72533e8d4ab0ecb93d2382af012df35175e
+SHA512: 2911b483daa3de8119d3dca6b1a1f10322c863c3064e2a19d4f62e8ff6ec4e61304f0eea3c3f6fca4b4944bade4280db9a457110d4f9032b2eb1e75c1eb7bb5d
+
 Package: coreutils
 Architecture: x86_64
 Installed-Size: 2668
@@ -178,6 +193,20 @@ MD5Sum: 5431cc47d6ddc7cf81ff0115a6511f09
 SHA1: 274b09e7dac56b712535e777f43e35f7c2236230
 SHA256: 6858783b16354836be4736e8756ddc3a07c4ad6407adc2c375cf6c1213b36af2
 SHA512: 8ade743efcf36d0876f3b49216be64e3051029b8e208a6597c9e7afdaee230187321b88d7fd5584f06c8091205e72caaf6c9cf955dd2f2298730d3e49a14d7c3
+
+Package: debianutils
+Architecture: x86_64
+Installed-Size: 116
+Maintainer: @termux
+Version: 5.20
+Homepage: https://packages.debian.org/debianutils
+Description: Small utilities which are used primarily by the installation scripts of Debian packages
+Filename: dists/stable/main/binary-x86_64/debianutils_5.20_x86_64.deb
+Size: 16536
+MD5Sum: 7f9c146abf60269bc9518c96eb01eff5
+SHA1: 8fc7f0017a1980e4428d6cfb9247486ada1bde54
+SHA256: 113dd46ea552f82d85d070a29241625f6a7b693f95fb365ba12ca39f51a2ca4c
+SHA512: 2057e315c967578307854ba8d13e1ce10dd74761e2b02538873d580118e7f586edff35e911db66e23bf21b41dcdde1903210be01afaf63cb6b1c0f4186df5fd3
 
 Package: dialog-static
 Architecture: x86_64

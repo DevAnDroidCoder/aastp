@@ -269,6 +269,8 @@ data/data/com.icst.android.appstudio/files/usr/share/man/man1/bzgrep.1.gz       
 data/data/com.icst.android.appstudio/files/usr/share/man/man1/bzip2.1.gz         bzip2
 data/data/com.icst.android.appstudio/files/usr/share/man/man1/bzless.1.gz        bzip2
 data/data/com.icst.android.appstudio/files/usr/share/man/man1/bzmore.1.gz        bzip2
+data/data/com.icst.android.appstudio/files/usr/libexec/termux/command-not-found  command-not-found
+data/data/com.icst.android.appstudio/files/usr/share/doc/command-not-found/LICENSE command-not-found
 data/data/com.icst.android.appstudio/files/usr/bin/[                             coreutils
 data/data/com.icst.android.appstudio/files/usr/bin/b2sum                         coreutils
 data/data/com.icst.android.appstudio/files/usr/bin/base32                        coreutils
@@ -480,6 +482,14 @@ data/data/com.icst.android.appstudio/files/usr/bin/sh                           
 data/data/com.icst.android.appstudio/files/usr/share/doc/dash/LICENSE            dash
 data/data/com.icst.android.appstudio/files/usr/share/man/man1/dash.1.gz          dash
 data/data/com.icst.android.appstudio/files/usr/share/man/man1/sh.1.gz            dash
+data/data/com.icst.android.appstudio/files/usr/bin/ischroot                      debianutils
+data/data/com.icst.android.appstudio/files/usr/bin/run-parts                     debianutils
+data/data/com.icst.android.appstudio/files/usr/bin/savelog                       debianutils
+data/data/com.icst.android.appstudio/files/usr/bin/tempfile                      debianutils
+data/data/com.icst.android.appstudio/files/usr/share/doc/debianutils/LICENSE     debianutils
+data/data/com.icst.android.appstudio/files/usr/share/man/man1/ischroot.1.gz      debianutils
+data/data/com.icst.android.appstudio/files/usr/share/man/man1/tempfile.1.gz      debianutils
+data/data/com.icst.android.appstudio/files/usr/share/man/man8/savelog.8.gz       debianutils
 data/data/com.icst.android.appstudio/files/usr/lib/libdialog.a                   dialog-static
 data/data/com.icst.android.appstudio/files/usr/bin/dialog                        dialog
 data/data/com.icst.android.appstudio/files/usr/share/doc/dialog/LICENSE          dialog
