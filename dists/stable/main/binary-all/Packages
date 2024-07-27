@@ -1,3 +1,18 @@
+Package: apt-transport-tor
+Architecture: all
+Installed-Size: 44
+Maintainer: @termux
+Version: 2.7.14
+Homepage: https://packages.debian.org/apt
+Depends: tor, apt (= 2.7.14)
+Description: APT transport for anonymous package downloads via Tor
+Filename: dists/stable/main/binary-all/apt-transport-tor_2.7.14_all.deb
+Size: 920
+MD5Sum: 4077e3782e19c2aa832dcc04eb4a29af
+SHA1: eab160b06aee0785561d4e1cde3d2dd90c24e1a1
+SHA256: 8b322f997527164c23e19c53c64c0403abaa7c46676adb4ad4383ede564c9e2c
+SHA512: 294c3b3484b03a3dbd94ba60fc75a2eb31ac892e5f330f2232c69a8b0436db09475281ca449bff09f7f1634730fd406a3a03259b94e0a35659618480481ea218
+
 Package: ca-certificates-java
 Architecture: all
 Installed-Size: 212
@@ -8,10 +23,10 @@ Depends: ca-certificates (= 1:2024.07.02)
 Description: Common CA certificates (java keystore format)
 Filename: dists/stable/main/binary-all/ca-certificates-java_1_2024.07.02_all.deb
 Size: 114524
-MD5Sum: 1feb2591e4e0348f5af91a1802f0bf7a
-SHA1: 9d610537f97fc175c8c6314b9ea7dadcf08b5fde
-SHA256: 31fc8142239967fba411faafbe1a1fedb9e7c62f35e537934783e29cc6367f60
-SHA512: 81631afd5b18463e76da76f0c3e268e5cfa32f6f5b3b430cd6e5980956eab9ffeab21dec290cae82228b0f9182cd87d735e648ab1346c038a5140abd18a2771e
+MD5Sum: 06ffa4e84ab5327bc525a101611f3866
+SHA1: 569b3c561e98969621c449591d951f05f16475fe
+SHA256: ece08614297dcc04322f40014a48842b86954b1d8a3ac86b68ecdf61842397d5
+SHA512: e4ad1e4c4409cdd76dc168081753f6985085f445ead433471e9303087f8c8a274b14a8f4918bc7cb4715bccc458417995b8f98b9117f802fe77b7c19bcc13ca1
 
 Package: ca-certificates
 Architecture: all
@@ -27,6 +42,66 @@ SHA1: 14a6d7f112e45152da8091efce9705f1b870f575
 SHA256: 85533a6f3e3581a2fa3b800604fbd7960903ee5ee6e40ed514c4a7996182ae22
 SHA512: 69bd7309ab8b7d85031317c5f96b20e8eae35f37569c260b78f153a1260f1bac8c46e1c0135eefe2a19aed4d74b4e365b9931f9be556ffe49c014cef982c5c96
 
+Package: docbook-xml
+Architecture: all
+Installed-Size: 2412
+Maintainer: @termux
+Version: 4.5-4
+Homepage: https://www.oasis-open.org/docbook/
+Depends: libxml2-utils
+Description: A widely used XML scheme for writing documentation and help
+Filename: dists/stable/main/binary-all/docbook-xml_4.5-4_all.deb
+Size: 78164
+MD5Sum: 86927213ba8d9d3e0a92ec2285f6697c
+SHA1: a7289b80a4607bec424d365c99eea897d10ed5e0
+SHA256: 2046c10440635240d0fe530b3d4953648108dc3f114ea40792a56d01f5b3213c
+SHA512: 193c7ef63ae9ca629e908af5e4780e17072521bcf326e53a03c7532bf050ae5394bf43f2613bd08598a2f2a2fbccbe15a7c6fe8712ec6cc2138e701bdef76c7d
+
+Package: docbook-xsl
+Architecture: all
+Installed-Size: 33404
+Maintainer: @termux
+Version: 1.79.2-1
+Homepage: https://docbook.org/
+Depends: docbook-xml, libxml2-utils, xsltproc
+Description: XML stylesheets for Docbook-xml transformations
+Filename: dists/stable/main/binary-all/docbook-xsl_1.79.2-1_all.deb
+Size: 1246200
+MD5Sum: 2331ed2f718331d8c9089bda6ce777bc
+SHA1: 0410712fb2df48ee3ec83c3512f7dc3c144f67f8
+SHA256: 3bf16031851144be1384b9b0ecce8cb2d522be5a2ff63d8d4106bfda6ca968ec
+SHA512: 5dcb8951670cb152fab82ccf02607154c3b759a2f50b75d974364deaa9eb14845a1d76d027319472a7c073532c493921af5b0fe6b9850bce98690e790e6748b3
+
+Package: dpkg-perl
+Architecture: all
+Installed-Size: 940
+Maintainer: @termux
+Version: 1.22.6
+Homepage: https://packages.debian.org/dpkg
+Depends: perl, clang, make, dpkg (= 1.22.6)
+Description: Perl modules for dpkg
+Filename: dists/stable/main/binary-all/dpkg-perl_1.22.6_all.deb
+Size: 126248
+MD5Sum: f65c684645e0bb0c2991cf76ce31231a
+SHA1: 21563bb0a285096f2245d490227873fa2c889c4d
+SHA256: 6a8767e24455fa5e22ed8e7ae1e4e993d9329c9d9d91104068814ca34c2c0e54
+SHA512: 5930f21644bcbd82f23886be468a43693064d4f437827b9c26cec02d4c821d04a8927acf5716b09984db005c3ab0c5b5984e474c0160943479cfd1d48a26c3e7
+
+Package: dpkg-scanpackages
+Architecture: all
+Installed-Size: 56
+Maintainer: @termux
+Version: 1.22.6
+Homepage: https://packages.debian.org/dpkg
+Depends: dpkg-perl, dpkg (= 1.22.6)
+Description: Creates Packages index files
+Filename: dists/stable/main/binary-all/dpkg-scanpackages_1.22.6_all.deb
+Size: 6756
+MD5Sum: 09a114d1ac09b5a925dfb0ed32d158c6
+SHA1: f103daa8fd7033a3b33ba8748727de2c4a708c3c
+SHA256: d73fee2c1c78f95e8f9b4d05e78aba44c32393d1ef7ab38510d7f50bceb36433
+SHA512: 8b9b0761c7948f3735bda05ee87e06e97d5980e341d986fa8837e271f3a345fa281d599562976f5f9c4569550ba14f69105229d5965b3f70e7a0eb02f85a1598
+
 Package: git-svn
 Architecture: all
 Installed-Size: 320
@@ -41,6 +116,37 @@ MD5Sum: 76461afdc6774e42ea8cd1946e2d6ce4
 SHA1: 1572ede56d2f9f3808ef404140f371854885d49f
 SHA256: 090906fa6eef6c6509dda95c02b5355e17f305a40890cfc347b9d2e9c2670705
 SHA512: 75c8085920960a2603dc4a0f1535bc0fe2843f1f2050a1a7fe6ca71660af0cc08ed0ed2f3f75c97f25b7ed71c9f3ce1454feb0de3d7cdca89419100c2336bf6f
+
+Package: openjdk-17-source
+Architecture: all
+Installed-Size: 50460
+Maintainer: @termux
+Version: 17.0-34
+Homepage: https://github.com/openjdk/mobile
+Description: Source files for openjdk-17
+Filename: dists/stable/main/binary-all/openjdk-17-source_17.0-34_all.deb
+Size: 46729268
+MD5Sum: 9354e11139c4d69391d757abfc5d832a
+SHA1: 568bb0eaf0a19f05a763734ffb9b8bddc925d349
+SHA256: 17dc45640a98564771a05ca767fc95a704098835c1651d064f9556e427a1c725
+SHA512: f898296d485008eb55cef831262af6b22ee1365206f88855d6cb10ba5504b464ccfabd629d0ec5d595023d4400325a7a91b17e983bdb7fe46168fcdaf91b3c19
+
+Package: python-ensurepip-wheels
+Architecture: all
+Installed-Size: 3308
+Maintainer: @termux
+Version: 3.11.9-2
+Homepage: https://python.org/
+Depends: python (= 3.11.9-2)
+Breaks: python (<< 3.11.1-3)
+Replaces: python (<< 3.11.1-3)
+Description: Wheels for Python ensurepip
+Filename: dists/stable/main/binary-all/python-ensurepip-wheels_3.11.9-2_all.deb
+Size: 3029108
+MD5Sum: d5572b115c1a422d2a45a2f2e6cdd2fd
+SHA1: 5634d3291e5365666a0ce3f609e1386b3e56958f
+SHA256: ab3d3acb7e7ae92caba7b35547dcc20650dc7c7f0358db80cb001ac8aa1c4eea
+SHA512: df2dcf326c0f9e18427ff05177560e31a9640379179cc08d0a3471b81535853aa912617a643f94421e731fde5c2f56349c966ce0f2d103521bddef5660ca7d51
 
 Package: python-xcbgen
 Architecture: all
@@ -89,6 +195,21 @@ MD5Sum: 828a03e9ce6a3df071d6c8bf74be7cd3
 SHA1: 59706ca06e38174e11370b07a7dc4c7a9df20a31
 SHA256: 390cb18db44b4b05532072c31325b68c5c8fedbf0d142fe08fe0c98911d0ed3c
 SHA512: 5e49f9ae3fabb2b540e74c794ae0060117acb2bc90c452a41ba53c34821d9bca4c293a5300649526cc16634546fb449fa62d7a632e34f698f9b243ab702f1b04
+
+Package: termux-licenses
+Architecture: all
+Installed-Size: 372
+Maintainer: @termux
+Version: 2.0-3
+Homepage: https://termux.dev
+Essential: yes
+Description: Contains LICENSE files for common licenses
+Filename: dists/stable/main/binary-all/termux-licenses_2.0-3_all.deb
+Size: 52104
+MD5Sum: 3ad9dfa7a9431a2f6effc6027d9f6f02
+SHA1: a7700842ffbc8026d29c81ecd4e5b91faea60fa7
+SHA256: fe3cd07e06f060e28d37fd20575a1726a2efd9cd13ce016fec7695206241f4fd
+SHA512: 86b1d4256c9eee39943fc9cb1707e150d77fb4eb38491260db3f8137da97bacb4cfbc86f071ac962f7909b6fac2dc684ee66883bf1664daa557b914b55c7ff4a
 
 Package: termux-tools
 Architecture: all
