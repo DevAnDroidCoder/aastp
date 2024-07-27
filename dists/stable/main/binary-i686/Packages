@@ -160,10 +160,10 @@ Depends: libbz2 (= 1.0.8-6)
 Description: Tools for working with bzip2 compression
 Filename: dists/stable/main/binary-i686/bzip2_1.0.8-6_i686.deb
 Size: 26740
-MD5Sum: 6a4103e8bc386bab5e0fd896dd413ba0
-SHA1: 7cbba2d3174716f765f7d2886a40fb5aa80ae5d6
-SHA256: 90e828663539167f4cdb49896231f7466dbf999bc38d3092be48738b0d468ecb
-SHA512: 46e328c4fbc8b177ed594ccb184107e3790852b8ea9180a8cc58c8f9974c0dd5e5946aded07b30c8e586d6262c1a226e1d1672b2a34796f7563c0c7643a1945c
+MD5Sum: 49f6350c927faf0c3dd2f5f41429b0bf
+SHA1: 7eda0e6b29ed15ef4b05fd92629697712e9157e7
+SHA256: b7fddf828d361001cf2ca30d36b1d42946aa6049ea212561a91b20ac2345cb02
+SHA512: 41b02babce77cb7cf5dbc7fc369e875a691b1be899f6ea58dec15e33ae483d0c7dd40ee5431e797e191cc26af9a090401dfd6d349b36da63a7aa519da32d45f3
 
 Package: command-not-found
 Architecture: i686
@@ -1015,11 +1015,11 @@ Essential: yes
 Replaces: libbz2-dev
 Description: BZ2 format compression library
 Filename: dists/stable/main/binary-i686/libbz2_1.0.8-6_i686.deb
-Size: 26092
-MD5Sum: 316e059b223dc947e5dea1cce06bf5ec
-SHA1: ad6fb6f74977b39655fc6ac6646fbba83c9d0a33
-SHA256: e7604dc9b3d40e3ec88cf2f872ea09fab8d6ddf7938f95c944aa18bd46c31222
-SHA512: b087676298c304ef39c258a7a321de20e17237833c6e3a0b31ef3166812e246e40dceb272edd83e8f96d2a2e528331255647d6ff946c5a3d138d29f1025ef935
+Size: 26076
+MD5Sum: 0f9bf99968764139cb6592085a704f21
+SHA1: 20e27b2eff2e70d99a648bee0d8a64c7f31e3061
+SHA256: d5af5178386ff3d02c54ee2f6eaad519ab40cbd9923982890908dd4bfd2d0f4f
+SHA512: 4754a8c4f5828be21d60e7c3610aa9ba38365aae8120843f469f76782408f748555a463fdaa5443e46ca798342a7f4a8af0eea3dbd4eb300bfa653e585f1dde5
 
 Package: libc++
 Architecture: i686
@@ -3426,6 +3426,21 @@ MD5Sum: 5d7475e1c82a3000c4417c694b5d1cfa
 SHA1: 467b759cb2b951ab3c8762e79478bae9b1d359c0
 SHA256: 840fc55c6b8154c7227ab7f8d0d35947433770d425a7a0cabdd0d7bd7e782825
 SHA512: 5ec16c6c163790557987a050a690b05e3e049b2ecf960cef72b71c91e28b3d8f53b778ec64d823e318320cad962f1acffc7683fee3ae76747bd90c7d9943d52a
+
+Package: unzip
+Architecture: i686
+Installed-Size: 328
+Maintainer: @termux
+Version: 6.0-9
+Homepage: https://sourceforge.net/projects/infozip/
+Depends: libbz2
+Description: Tools for working with zip files
+Filename: dists/stable/main/binary-i686/unzip_6.0-9_i686.deb
+Size: 116408
+MD5Sum: 7ae13c4a028005e2125420f63eb7b8ef
+SHA1: d8b282a3942825b598eb7c7fd9c87b2ff270ac7f
+SHA256: 74508eb485ede10cab8945416725457c62df06099888fdf2cc4933b557d4e155
+SHA512: df0cb86a6cd6984134be7cd6a18f4fe5913b9a1e94f4a35a70eacfb6bcd704f45124c8e6f109b6d7e8f49ed8db88aa1ac5a7e0d71c3e71fa4dca5d3de8f0023f
 
 Package: utf8proc-static
 Architecture: i686

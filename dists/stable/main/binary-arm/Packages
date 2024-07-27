@@ -159,11 +159,11 @@ Essential: yes
 Depends: libbz2 (= 1.0.8-6)
 Description: Tools for working with bzip2 compression
 Filename: dists/stable/main/binary-arm/bzip2_1.0.8-6_arm.deb
-Size: 25700
-MD5Sum: 96c186360a777678d296612f8942e46a
-SHA1: e7700ca539a4cf3b1c69e51cfffc6546d6ebdc5e
-SHA256: 40dbb9c690f4d237547d49897cdd78087ff1247810b3c4fe0dbd1a68e3e26539
-SHA512: 5808b3c8fae9040d8a20b396d9330a3a4c6b566c44c5c578256894a26011d26e7a3cc35f334d863d8d488792e5c9d767e258667a474a14e383dec8614a79fb04
+Size: 25704
+MD5Sum: 912cba0b95d0779e9b643027cbaea096
+SHA1: e42fc2aef21aca414d2522163c0ac3a2da726793
+SHA256: d155528f26a51005980d0c1654c764ed0532483b3b336fad9017db2b93bac19b
+SHA512: 46ca6da9945ede56c932f2ad06b4b6e2307ca877002259f6cd3587385cce0cd2ae1af1ec7b684f7682e26895ae66d3c580226c6a32b7fc877d0d6a4b62de20c5
 
 Package: command-not-found
 Architecture: arm
@@ -1015,11 +1015,11 @@ Essential: yes
 Replaces: libbz2-dev
 Description: BZ2 format compression library
 Filename: dists/stable/main/binary-arm/libbz2_1.0.8-6_arm.deb
-Size: 23904
-MD5Sum: 654a81499089e8b06e4144e7113f14bb
-SHA1: 387c3eae540bdda29f02f7bae36e29356b5a8f09
-SHA256: 8f4069623d2168aced822731c6bb2895ef9442ed6f8871ff6bf33b6e94f6e580
-SHA512: b268c1ffd32cd11166e6908c5b9d11fde54da5113b93385e77b747b724741cff417bf3ad9b76899fc99e41ee1bcc32813b65793fab667c605bd6ae9a86ee8a86
+Size: 23896
+MD5Sum: f1fedf0d292845858828673b4a90978e
+SHA1: 031534d663ccb4df6100302bbc3282a25afdb10c
+SHA256: 5a45b12524076234755c8a4724969835819094ec62c4e2f2e5dda20396d2a2d2
+SHA512: 215d5ad27a222af6f39eecc645b3128160e9bd251c0bfde734f43e9a23c8f2a5246fb5ce92e9bf4a573b27bfc34cfd16e648a17bdad237ead46e7be7ffa70f41
 
 Package: libc++
 Architecture: arm
@@ -3426,6 +3426,21 @@ MD5Sum: d5791854bf674091d959af5c040f6c5e
 SHA1: 617b46c074f9182b129ce072f9b14f82f9db8fa6
 SHA256: 1de2c2b7944448c7dc93f542f431c8e243654eead9ea9a694ce9ca4da84ccd86
 SHA512: 6e5121974e17d21d614d359cab22644ba2f621ececf37ef48f54e7e2c8edf5ecda2470feb8c2d8d524db53e04034390c12b5351f7e804ed0e85a835c52bc6944
+
+Package: unzip
+Architecture: arm
+Installed-Size: 276
+Maintainer: @termux
+Version: 6.0-9
+Homepage: https://sourceforge.net/projects/infozip/
+Depends: libbz2
+Description: Tools for working with zip files
+Filename: dists/stable/main/binary-arm/unzip_6.0-9_arm.deb
+Size: 113264
+MD5Sum: e71c7a5cf020766c59ea83d5be6b1d95
+SHA1: 90727df4025fb96aaa07591cd758522f362bfa0e
+SHA256: f7a80c50eb18bef72d405aab61b3784dc35e5c65fb648375e270ccd5d5d0acf1
+SHA512: 93453f4dac27826202a656c391b97f6b75702ff81466aaae5a29b0cebdcc3013556dd293e7a06f9b318a0f5d9fc7c9271204557cedf33c929ce71d67b222aaa2
 
 Package: utf8proc-static
 Architecture: arm

@@ -18964,6 +18964,17 @@ data/data/com.icst.android.appstudio/files/usr/share/man/man8/unbound-checkconf.
 data/data/com.icst.android.appstudio/files/usr/share/man/man8/unbound-control-setup.8.gz unbound
 data/data/com.icst.android.appstudio/files/usr/share/man/man8/unbound-control.8.gz unbound
 data/data/com.icst.android.appstudio/files/usr/share/man/man8/unbound.8.gz       unbound
+data/data/com.icst.android.appstudio/files/usr/bin/funzip                        unzip
+data/data/com.icst.android.appstudio/files/usr/bin/unzip                         unzip
+data/data/com.icst.android.appstudio/files/usr/bin/unzipsfx                      unzip
+data/data/com.icst.android.appstudio/files/usr/bin/zipgrep                       unzip
+data/data/com.icst.android.appstudio/files/usr/bin/zipinfo                       unzip
+data/data/com.icst.android.appstudio/files/usr/share/doc/unzip/LICENSE           unzip
+data/data/com.icst.android.appstudio/files/usr/share/man/man1/funzip.1.gz        unzip
+data/data/com.icst.android.appstudio/files/usr/share/man/man1/unzip.1.gz         unzip
+data/data/com.icst.android.appstudio/files/usr/share/man/man1/unzipsfx.1.gz      unzip
+data/data/com.icst.android.appstudio/files/usr/share/man/man1/zipgrep.1.gz       unzip
+data/data/com.icst.android.appstudio/files/usr/share/man/man1/zipinfo.1.gz       unzip
 data/data/com.icst.android.appstudio/files/usr/lib/libutf8proc.a                 utf8proc-static
 data/data/com.icst.android.appstudio/files/usr/include/utf8proc.h                utf8proc
 data/data/com.icst.android.appstudio/files/usr/lib/libutf8proc.so                utf8proc

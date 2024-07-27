@@ -159,11 +159,11 @@ Essential: yes
 Depends: libbz2 (= 1.0.8-6)
 Description: Tools for working with bzip2 compression
 Filename: dists/stable/main/binary-x86_64/bzip2_1.0.8-6_x86_64.deb
-Size: 26956
-MD5Sum: ccf7d4d84041dc7a79482767dcb28382
-SHA1: 27af5f7bf99b974df8bede3f58e835acc651fac4
-SHA256: 5b5a0b33fae158662ec27908205c73455619ae31aeab8fa9388e25d80b00ede4
-SHA512: a90ad5750402eba59913371c66ef2ca2a9f797dd36d1399be6455d380e3a58e5c0aa70616a52ff6800121880eeb94e973e05f7cbfcb5be165c0b95c1b782a5aa
+Size: 26968
+MD5Sum: 6a2114dfc2a38a787d5d46ef26150a44
+SHA1: 68edbf40afdb8a833173c847cc999b091ef5a471
+SHA256: b59a91a5b3988237b2c1b096a98281ae76d7a7c5623f69485aa345a717643c81
+SHA512: a8b5ff3752c134c0e1f9acfc1915a2deeb78cbff5788abf8123dd233e5dd3ff892f48ffd85d08b449e06806538014c128a268236df891fdde6de3ad12507258a
 
 Package: command-not-found
 Architecture: x86_64
@@ -1015,11 +1015,11 @@ Essential: yes
 Replaces: libbz2-dev
 Description: BZ2 format compression library
 Filename: dists/stable/main/binary-x86_64/libbz2_1.0.8-6_x86_64.deb
-Size: 27036
-MD5Sum: 1856dfbb361a8dc693c7a381e7f8c2c3
-SHA1: 24b8a8e581f9c365d38b039bc02589c1048a54f2
-SHA256: dd94121efcba92f2565cb1ba099ece9a543199b9477b17cb918f2cf103e89c10
-SHA512: e0704165a8a29cc52896384f034f52d603a1a5ca2f629f81c0c9e2291649e5a42a844e2972a27001b5893eb257b2315a3f7bff28a99db23800b6a773d0eea983
+Size: 27032
+MD5Sum: 1a2e9f90696e8e83739b1025f5f93f86
+SHA1: 2816f2de6040894ea0c8a6d561d37518cc732ed1
+SHA256: 92d1751758f4d2fa3ed997149ea7a21ad477463eb426a409af4c3bd78b700fca
+SHA512: 2d8ac646a0725c5be72c24d98e7e552a384f56d78f2ad21caacfa568cbf6b8882ff41f0af4c85a06198c51e2a341589416a7cee9079b94f15a521b44c5bd021b
 
 Package: libc++
 Architecture: x86_64
@@ -3426,6 +3426,21 @@ MD5Sum: 89786fa4c49bdf696ea83e5418ad1781
 SHA1: e9ed1ac8ca40f4a8a01ee019afcdbe93eb94bbec
 SHA256: 62f87199c2ab497c07f2491058ccf2850929a2be7a84816cdf2a59b14e89ee3e
 SHA512: f27bc76dd533bb9b787e216b4034eeac50550f50ec5d8272ebe76f701c65688c007b1db50ea0ee86d5aeff798cca77eb814abb4608e3cfee9db5c4491b1bc136
+
+Package: unzip
+Architecture: x86_64
+Installed-Size: 328
+Maintainer: @termux
+Version: 6.0-9
+Homepage: https://sourceforge.net/projects/infozip/
+Depends: libbz2
+Description: Tools for working with zip files
+Filename: dists/stable/main/binary-x86_64/unzip_6.0-9_x86_64.deb
+Size: 117596
+MD5Sum: 1fdffa2155ad208f356c8200ad2b349e
+SHA1: b5bc569c35428a0536b7e3089332e02b559383b9
+SHA256: aca4a148a70ecbb4e4e97e5f45efddbfb1a236e3e933f6a921aff0b650c2f603
+SHA512: f3109c5fc4fb01854bc467887bfc8d60ba0084daeb4e9233eb5ca55694ee6c3348cc38429239d0af6ed784d1e65b6a019bb6783ce7b0686c47d6e58c12f392bd
 
 Package: utf8proc-static
 Architecture: x86_64

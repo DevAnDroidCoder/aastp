@@ -125,10 +125,10 @@ Depends: libbz2 (= 1.0.8-6)
 Description: Tools for working with bzip2 compression
 Filename: dists/stable/main/binary-aarch64/bzip2_1.0.8-6_aarch64.deb
 Size: 26220
-MD5Sum: 9677b9074a80e56c2898b8d1a2154308
-SHA1: 951e9e98bc1caf16a1f8b67a7c270ee61265028d
-SHA256: e8acc156ad53cdd3a229f4f181a3d63e3bd820751ac473641423a53c93bb534f
-SHA512: 9030dbf1f91684d7efb571761ad0beb3541f112aaa1e3ed1502c6f2f1a5a2f1cbdb6c7b30adb69e5782bbe2aed98d176c1c37e23b564ea123e76c6432ce7fbdb
+MD5Sum: af089b283c8dbde421dbc9eec7b1d751
+SHA1: 4701f654247a8c8a001c4f5c5ef492e5b534e71a
+SHA256: 55899b5547e09bac7cc41241f2835102170705f4105a5c3525b3d789b6e41465
+SHA512: a17f66b0b35e442af6b41d52419cdc78a4f0378c01e43795a49e339ea31738d908a9de5c498f0f8116476ea23e8c4b468a6b437a58d97f49150c9a301c89133f
 
 Package: command-not-found
 Architecture: aarch64
@@ -882,11 +882,11 @@ Essential: yes
 Replaces: libbz2-dev
 Description: BZ2 format compression library
 Filename: dists/stable/main/binary-aarch64/libbz2_1.0.8-6_aarch64.deb
-Size: 26316
-MD5Sum: 9ae9e48b5dc76154805fdd90b50046eb
-SHA1: ef87711d134e9dc85f6464173e5ff51dc1d6a942
-SHA256: bc7cef4084f04ac584354202d41c757e851608a6373b5d8dff439ec313e2714c
-SHA512: cda284b0b0707f80bcfb0e8ee5c144469220aeaa186f6fec5391e6543bc312ed667ae37ab6cc618a8eaac8dd82db8582c615e140a1c988e8a4ff3e42daadc861
+Size: 26320
+MD5Sum: 571d035cefafc9e60b1308061e83dbb9
+SHA1: 4f02486c437b7681d22cef5d6912a8e5a2e07c00
+SHA256: 1c846e3827c8b2fcf8251f0f2ce14458b7131fbe75980652aa8bde34012a3424
+SHA512: 73dff9a3c679f77eb1dff6651b99c7cef39fe82e1edc922c132771d276adcc4f6eb1d0e4cc48b51a01da6ec78d82b2c8b6e10227c8984e955eda62b18be9bc6c
 
 Package: libc++
 Architecture: aarch64
@@ -2902,6 +2902,21 @@ MD5Sum: 9a15f55039dcd964571cee4028ce966a
 SHA1: ab9afd037d91e419897a07435b378589db628466
 SHA256: 6e8e5a6eb03a2503acd33804c140a574234a5aae940dfb507955fe466ad143da
 SHA512: 5b3e1ebc954c029698b19cf131eca6f9d78a4d27fe71ef326120d56fad1b844603a914562a18eb63fd834c7f7129ae12cc1dbebde2826b8cb80e986007a7c1a4
+
+Package: unzip
+Architecture: aarch64
+Installed-Size: 332
+Maintainer: @termux
+Version: 6.0-9
+Homepage: https://sourceforge.net/projects/infozip/
+Depends: libbz2
+Description: Tools for working with zip files
+Filename: dists/stable/main/binary-aarch64/unzip_6.0-9_aarch64.deb
+Size: 118032
+MD5Sum: 5463980a86b90fefb9eed8c2b697cb33
+SHA1: e2f1bd779b6d2c1d45d08331011cf416082d4404
+SHA256: 850951f98ccca662a0dab81ad39b0c6d94eb136d769745c621badc161d8ffcb7
+SHA512: 33d5171eade66897a48d17f5c95990204b9880298799a11c1a48125eb582dcc131dadcf2bc5f61e1d38d99a69e056e7e389a15438e314957525cbd99e1acc47f
 
 Package: utf8proc-static
 Architecture: aarch64
