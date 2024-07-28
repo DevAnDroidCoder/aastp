@@ -3,6 +3,9 @@ data/data/com.icst.android.appstudio/files/usr/lib/apt/methods/tor+http         
 data/data/com.icst.android.appstudio/files/usr/lib/apt/methods/tor+https         apt-transport-tor
 data/data/com.icst.android.appstudio/files/usr/share/apt-transport-tor/.placeholder apt-transport-tor
 data/data/com.icst.android.appstudio/files/usr/lib/jvm/java-17-openjdk/lib/security/jssecacerts ca-certificates-java
+data/data/com.icst.android.appstudio/files/usr/lib/jvm/java-17-openjdk/lib/security/jssecacerts ca-certificates-java
+data/data/com.icst.android.appstudio/files/usr/etc/tls/cert.pem                  ca-certificates
+data/data/com.icst.android.appstudio/files/usr/share/doc/ca-certificates/LICENSE ca-certificates
 data/data/com.icst.android.appstudio/files/usr/etc/tls/cert.pem                  ca-certificates
 data/data/com.icst.android.appstudio/files/usr/share/doc/ca-certificates/LICENSE ca-certificates
 data/data/com.icst.android.appstudio/files/usr/etc/xml/docbook-xml               docbook-xml

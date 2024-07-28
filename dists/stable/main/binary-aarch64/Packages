@@ -62,6 +62,41 @@ SHA1: 465afa74aabde2771d9117665a0ccf62f6a800b1
 SHA256: 77c14a1b3597bfa36c73720cfe420e7eab46f75f31004a6c8d82582c102ecf7f
 SHA512: 8e6fd2dd344854fdb331c693e9e8f87d272da3866148b92c5c57ccf75a0f5b4602567f6ec9c779eab73c6536c6aa24608f04d8b3cb4b5308595e6fc1cef4cb9d
 
+Package: apt-ftparchive
+Architecture: aarch64
+Installed-Size: 316
+Maintainer: @termux
+Version: 2.7.14
+Homepage: https://packages.debian.org/apt
+Depends: libdb, apt (= 2.7.14)
+Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
+Filename: dists/stable/main/binary-aarch64/apt-ftparchive_2.7.14_aarch64.deb
+Size: 95644
+MD5Sum: ef82be55e55def5ede1369147ff4b987
+SHA1: aa29084c901575cd3d5902dfc0b66c42415e80df
+SHA256: ac510a08e60c4de8f448885af44b7106db049215d01eb34670039ab03183dc85
+SHA512: a3e3bc03ca308d352ab3c1d5d896139a7f0ac3065bda3e0614170bf425feb2c4134f0b9d43a19a11dca405ee8f3e1dea8efb68f049083934a4b07af0866cb8b0
+
+Package: apt
+Architecture: aarch64
+Installed-Size: 4036
+Maintainer: @termux
+Version: 2.7.14
+Homepage: https://packages.debian.org/apt
+Depends: coreutils, dpkg, findutils, gpgv, grep, libandroid-glob, libbz2, libc++, libiconv, libgcrypt, libgnutls, liblz4, liblzma, sed, termux-keyring, termux-licenses, xxhash, zlib, zstd
+Essential: yes
+Conflicts: apt-transport-https, libapt-pkg, unstable-repo, game-repo, science-repo
+Replaces: apt-transport-https, libapt-pkg, unstable-repo, game-repo, science-repo
+Provides: unstable-repo, game-repo, science-repo
+Suggests: gnupg
+Description: Front-end for the dpkg package manager
+Filename: dists/stable/main/binary-aarch64/apt_2.7.14_aarch64.deb
+Size: 1021844
+MD5Sum: 9f4da48a519772ac903edb6fdeb3dcd9
+SHA1: 887e3e1310a902a6f22a493f8f05aa7595867f2f
+SHA256: e81d58f15cc3e0f07b8de2d3a67e92d0ca561cdce7e6183839c211428aa36451
+SHA512: c49e1c1bff19ab4ed0ff640d5d463b14dc317c9459f7174dde88aff4d9b2fbaecc28bbf5d44d621dfe1be79f8bd55eaf3e47ca6b58008bc27d1c783c66eccfe2
+
 Package: bash
 Architecture: aarch64
 Installed-Size: 4268
@@ -125,10 +160,10 @@ Depends: libbz2 (= 1.0.8-6)
 Description: Tools for working with bzip2 compression
 Filename: dists/stable/main/binary-aarch64/bzip2_1.0.8-6_aarch64.deb
 Size: 26220
-MD5Sum: af089b283c8dbde421dbc9eec7b1d751
-SHA1: 4701f654247a8c8a001c4f5c5ef492e5b534e71a
-SHA256: 55899b5547e09bac7cc41241f2835102170705f4105a5c3525b3d789b6e41465
-SHA512: a17f66b0b35e442af6b41d52419cdc78a4f0378c01e43795a49e339ea31738d908a9de5c498f0f8116476ea23e8c4b468a6b437a58d97f49150c9a301c89133f
+MD5Sum: 9677b9074a80e56c2898b8d1a2154308
+SHA1: 951e9e98bc1caf16a1f8b67a7c270ee61265028d
+SHA256: e8acc156ad53cdd3a229f4f181a3d63e3bd820751ac473641423a53c93bb534f
+SHA512: 9030dbf1f91684d7efb571761ad0beb3541f112aaa1e3ed1502c6f2f1a5a2f1cbdb6c7b30adb69e5782bbe2aed98d176c1c37e23b564ea123e76c6432ce7fbdb
 
 Package: command-not-found
 Architecture: aarch64
@@ -224,6 +259,21 @@ SHA1: 4cd0a064fa3c56a7baa43f804784cb8c915a95b8
 SHA256: 388ef78007e3464da1f5220dd50fd3c1f4d9bb57d1808b3d05917cbc150324c4
 SHA512: 823bfe1c7e3ad9214a27accd7f222506706dc8070ed5a2ac597a2d9266df4b8f166a5ea3e8a313998b9ed918463e8a63975ed53f2ba26e8a4a35b298d37e23e9
 
+Package: db
+Architecture: aarch64
+Installed-Size: 264
+Maintainer: @termux
+Version: 18.1.40-4
+Homepage: https://www.oracle.com/database/berkeley-db
+Depends: libdb (= 18.1.40-4)
+Description: The Berkeley DB embedded database system
+Filename: dists/stable/main/binary-aarch64/db_18.1.40-4_aarch64.deb
+Size: 40700
+MD5Sum: e0a07c21fb66d76223ce8e03021bd75c
+SHA1: 1d4eaa0a9326b2b83416fd876653112e9dfc96cc
+SHA256: 36a8b5d15f83a60e8bab3315821fc7910146f2d16d2fb8557180e0a7700662a8
+SHA512: b45d8934424b1ac8e8de15c6f040dc0f087fec02171bda4b3e5898803c8bf73662d489633ed669f37517aa2a931560b599563ae314fd93737f7a09bbb763c311
+
 Package: debianutils
 Architecture: aarch64
 Installed-Size: 116
@@ -298,6 +348,24 @@ MD5Sum: 4f3d665c78569918345f4563f7b46866
 SHA1: 857dc480d04b94b636caca9594411d01549df49b
 SHA256: 366ed75d9a1925e5b27c1878df84be3124e6e77ade74a8b732f1aceea52741fc
 SHA512: cff04b0b0c1c0bf49637d88abc3fec6c1a26a59773ad145ed91d67855027cb818f7e0028b749f01fa0d17b51c9c6bbe3f6133f5f7cb5d59f2f6cf914a01b5207
+
+Package: dpkg
+Architecture: aarch64
+Installed-Size: 1348
+Maintainer: @termux
+Version: 1.22.6
+Homepage: https://packages.debian.org/dpkg
+Breaks: dpkg-dev
+Depends: bzip2, coreutils, diffutils, gzip, less, libbz2, liblzma, libmd, tar, xz-utils, zlib, zstd
+Essential: yes
+Replaces: dpkg-dev
+Description: Debian package management system
+Filename: dists/stable/main/binary-aarch64/dpkg_1.22.6_aarch64.deb
+Size: 309772
+MD5Sum: 7355e84e53bed6718c185a76bb408760
+SHA1: b81a2e624d615f9f227a9a8b6024c9055576c5d8
+SHA256: 30a89bbd799d2539b9c356f9816c1da602d6d5c4c5853937a34cf9fbcf8ade46
+SHA512: db5e4a7d87d04981525083d59f0bf51cfef3984ea31b0dc02de34185e1a9f60b2efc9ccad104d099d149c5634c201afc9991fb10022b52f01f182713d17c38f5
 
 Package: ed
 Architecture: aarch64
@@ -582,6 +650,24 @@ SHA1: b5976b8b3f80daebb5efb53ad461b13c382fbafc
 SHA256: 83015a5dd7f68eb1da19168717b65dd712f4b3e32365d1977ec1ea3b798d5c89
 SHA512: 5c8f6d5884a56bafec6f1627b08e31d19093d861e151de86a02d32453e9972bb91abc40ad0357903d5ffd3ed0009523f7704af6d2b7aa77f74065e47a83e51b4
 
+Package: gnupg
+Architecture: aarch64
+Installed-Size: 5388
+Maintainer: @termux
+Version: 2.4.5-1
+Homepage: https://www.gnupg.org/
+Depends: libassuan, libbz2, libgcrypt, libgnutls, libgpg-error, libksba, libnpth, libsqlite, readline, pinentry, resolv-conf, zlib
+Conflicts: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
+Replaces: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
+Suggests: scdaemon
+Description: Implementation of the OpenPGP standard for encrypting and signing data and communication
+Filename: dists/stable/main/binary-aarch64/gnupg_2.4.5-1_aarch64.deb
+Size: 1368240
+MD5Sum: 989393613b30a75668e76da2bafb5e61
+SHA1: f3c67b4815732aef5bcdc618155ea912e675f13c
+SHA256: 4870d92dd4056668595526535aca4235cec0509633340047557a27cc7c74725e
+SHA512: 1952086410d483d78bfe11990d25ef02af6e92afde1119f98c497bf7c72b450d47d48968e2791c6c8d29d008bbfa4940a39f0facc73f687194670ae09a59d602
+
 Package: gnutls
 Architecture: aarch64
 Installed-Size: 912
@@ -596,6 +682,21 @@ MD5Sum: df823d16f5fd79a80c3d8c750c1caad2
 SHA1: 128b0a52fc55ed7c10688c4a307abec8ba4fce50
 SHA256: b0d62f1877ec5068a44ccf60267dcab3996c137cc0daad49ae9e672235adebb7
 SHA512: fb72599cda19d014775053a42da507c42c4f31b61cba1aa2fa0217f6e08fc785f297f832f60a71beb45db2a7d28fadab789bf565c45f5c44704b68955ea028b0
+
+Package: gpgv
+Architecture: aarch64
+Installed-Size: 496
+Maintainer: @termux
+Version: 2.4.5-1
+Homepage: https://www.gnupg.org/
+Depends: libassuan, libbz2, libgcrypt, libgpg-error, libnpth, zlib
+Description: GNU privacy guard - signature verification tool
+Filename: dists/stable/main/binary-aarch64/gpgv_2.4.5-1_aarch64.deb
+Size: 182272
+MD5Sum: 56cc5a9161064fedf8a240e559da3853
+SHA1: 64ac21e0715e892b909e82b67c9eb01b588d9d9d
+SHA256: e8dd2d94826e91cb0eb8ac41e163fde3571b0c5e7b54c4878c507d087c504fdc
+SHA512: 6b74f2454a58701bc01d0cd7fd04e7be62d57218d416422270e00e3c8e308544699fee8a639ce8e260750b09bb7ed3689ce3dc4f26c88b89221fcb6d8df88700
 
 Package: grep
 Architecture: aarch64
@@ -855,6 +956,38 @@ SHA1: a5552dcee1c88ec20d001b9c71c507c44531130f
 SHA256: cae8844f5d45b9821f6c15f31f7972b37a8d93533b1183cbfdccfdedea46e982
 SHA512: a3a0761b85acb6ee4546506c7de7fa424fe1813b69d75a22fb6fd390a7a338bc9cd1552986eaa6fdfac897e526093560fec4194f2ab7737e7e0ebfdf97ee6fc0
 
+Package: libassuan-static
+Architecture: aarch64
+Installed-Size: 172
+Maintainer: @termux
+Version: 2.5.7
+Homepage: https://www.gnupg.org/related_software/libassuan/
+Depends: libassuan (= 2.5.7)
+Description: Static libraries for libassuan
+Filename: dists/stable/main/binary-aarch64/libassuan-static_2.5.7_aarch64.deb
+Size: 32208
+MD5Sum: 433fa952c8af5ea7f180ea62339c4cdb
+SHA1: 37002c47097ae260dd6d7a1a858b5fb3872f3c05
+SHA256: 96bd3b3d82d28e8228d2b19f5bd1b5b962ba3f1a2eef844257cd85e959d3d86d
+SHA512: 97c9bef925ea6e0df35142e08e478583d91ce9583faa529fcb8bc0a409502e5ef92cd9fc78d580ba1133dbb534822567625830e2d42d356dbdbf923e14c8c3ad
+
+Package: libassuan
+Architecture: aarch64
+Installed-Size: 328
+Maintainer: @termux
+Version: 2.5.7
+Homepage: https://www.gnupg.org/related_software/libassuan/
+Breaks: libassuan-dev
+Depends: libgpg-error
+Replaces: libassuan-dev
+Description: Library implementing the Assuan IPC protocol used between most newer GnuPG components
+Filename: dists/stable/main/binary-aarch64/libassuan_2.5.7_aarch64.deb
+Size: 71892
+MD5Sum: 53ca94df5c9a1e9f641c559aa95f962d
+SHA1: ec70dc32605ddb4e1eeae2bcc03afcc58c018e3b
+SHA256: 3ae204c6c14d4ab547c2e175c29d6757c7930cb6ce1f98ca362036b8f23d1123
+SHA512: 4dd7a3bd2f1b1a32e4ed0ec8260e5da73ac1cb21ff4dc13cf536a4b93a5671f194e4e68e7df29b81b85900878ba1ab00c5bbe95dd996fc2084be6fe6c46bb364
+
 Package: libblkid
 Architecture: aarch64
 Installed-Size: 404
@@ -882,11 +1015,11 @@ Essential: yes
 Replaces: libbz2-dev
 Description: BZ2 format compression library
 Filename: dists/stable/main/binary-aarch64/libbz2_1.0.8-6_aarch64.deb
-Size: 26320
-MD5Sum: 571d035cefafc9e60b1308061e83dbb9
-SHA1: 4f02486c437b7681d22cef5d6912a8e5a2e07c00
-SHA256: 1c846e3827c8b2fcf8251f0f2ce14458b7131fbe75980652aa8bde34012a3424
-SHA512: 73dff9a3c679f77eb1dff6651b99c7cef39fe82e1edc922c132771d276adcc4f6eb1d0e4cc48b51a01da6ec78d82b2c8b6e10227c8984e955eda62b18be9bc6c
+Size: 26316
+MD5Sum: 9ae9e48b5dc76154805fdd90b50046eb
+SHA1: ef87711d134e9dc85f6464173e5ff51dc1d6a942
+SHA256: bc7cef4084f04ac584354202d41c757e851608a6373b5d8dff439ec313e2714c
+SHA512: cda284b0b0707f80bcfb0e8ee5c144469220aeaa186f6fec5391e6543bc312ed667ae37ab6cc618a8eaac8dd82db8582c615e140a1c988e8a4ff3e42daadc861
 
 Package: libc++
 Architecture: aarch64
@@ -983,6 +1116,38 @@ SHA1: 7e8aa1485355f88c51a09b6314e98cdf021b0183
 SHA256: a709bd2b782deb3303891e0b599215ef96aa20b3d31766d1d61598983a673433
 SHA512: 57f1d848f0cb68f9713323febc5359c88aaac711c90a930794ab922347cebc66f3a230796c0935cec305da88d4eb289ff5691a39b37c848a6831bb9aed47551b
 
+Package: libdb-static
+Architecture: aarch64
+Installed-Size: 9292
+Maintainer: @termux
+Version: 18.1.40-4
+Homepage: https://www.oracle.com/database/berkeley-db
+Depends: libdb (= 18.1.40-4)
+Description: Static libraries for libdb
+Filename: dists/stable/main/binary-aarch64/libdb-static_18.1.40-4_aarch64.deb
+Size: 485652
+MD5Sum: 8e7aaf09c08c4323ca23b24892d7f19c
+SHA1: 421dda23e4f84b1b9c640bf89010123ecdd83ca9
+SHA256: c3175509ab0ac671108a619874d7fed4603c0e237a46e5e24317a2f848a6080d
+SHA512: d47829b5614a5fa4929e7d828990e72fa6dbd907252ddcebe4d9a0c0b41cd18b8475d3f683ac40d5e937df241ed954cb63e22a335bc0574228da9d403cf1b596
+
+Package: libdb
+Architecture: aarch64
+Installed-Size: 2356
+Maintainer: @termux
+Version: 18.1.40-4
+Homepage: https://www.oracle.com/database/berkeley-db
+Breaks: libdb-dev
+Depends: libc++
+Replaces: libdb-dev
+Description: The Berkeley DB embedded database system (library)
+Filename: dists/stable/main/binary-aarch64/libdb_18.1.40-4_aarch64.deb
+Size: 512364
+MD5Sum: 2c3db41b94d54338d9f416fc1db9fe4b
+SHA1: faddbeab8cc506573181abbae394025ae25ef5df
+SHA256: 43cb4b0477ebcda7453492f16026acc5b26281aa7a3f5d2251068e1c63ee74ca
+SHA512: fdfd2562472e343ef805e389b3b5197f1d73668a5512bf4eacdb118557d7c619b4ba60e1df52ba2fcf4582348e69de46f9b0a5a7328e08f8aed7d8cf38bb578b
+
 Package: libevent
 Architecture: aarch64
 Installed-Size: 1168
@@ -1076,6 +1241,38 @@ SHA1: f4dd656c125ac50225e2fc58fc1f52b0ec87c08e
 SHA256: 40cb06bdb5b407fe5672dfd51620eef434652ba51125ad156ef47a58516c0d92
 SHA512: 836764fe2e37b78e5f4b78020ed7d2d30bd23389dd0c6c80a62b43a97014e51f810299d18e8953979bac2dafe74927f4ab755a970078e3306f51312679505cd6
 
+Package: libgcrypt-static
+Architecture: aarch64
+Installed-Size: 1568
+Maintainer: @termux
+Version: 1.10.3-1
+Homepage: https://www.gnu.org/software/libgcrypt/
+Depends: libgcrypt (= 1.10.3-1)
+Description: Static libraries for libgcrypt
+Filename: dists/stable/main/binary-aarch64/libgcrypt-static_1.10.3-1_aarch64.deb
+Size: 398584
+MD5Sum: 858ee031d8c15247b51ee0c7d1cc36b5
+SHA1: e8cf683ce815676fa2f755d171fe9d64412e4ba1
+SHA256: 1f0a2dca3afcb2af0815c13050bb6577ea89eec207bcd3a7b97cf42f32a57a07
+SHA512: ff5ac9cceb68fc4fae23f582f5c0d6997758e1300d971048f918c532e112d3af212a2a142abcef459b60c5bf29be55881281ecaf5959c779a8297ef077b85353
+
+Package: libgcrypt
+Architecture: aarch64
+Installed-Size: 1460
+Maintainer: @termux
+Version: 1.10.3-1
+Homepage: https://www.gnu.org/software/libgcrypt/
+Breaks: libgcrypt-dev
+Depends: libgpg-error
+Replaces: libgcrypt-dev
+Description: General purpose cryptographic library based on the code from GnuPG
+Filename: dists/stable/main/binary-aarch64/libgcrypt_1.10.3-1_aarch64.deb
+Size: 437200
+MD5Sum: 613493b9e22ee9e39e41acf70d483c1f
+SHA1: ca77f08ab0f6da80bda40328e9f3a4554b73156a
+SHA256: cfe24faeaa6a9db17e5140af5b7f63d93ad528ebe1409eab69314e2ca67b55db
+SHA512: 1687c3a08f51dfe270804fb3268297653cd964843b627a684f2e838bceae91fea24caa015ac2c4fa1564406bbcca48d5924aa822352794b4e99e1d92ea65679c
+
 Package: libgmp-static
 Architecture: aarch64
 Installed-Size: 1288
@@ -1110,18 +1307,18 @@ SHA512: 6df1107e902f693046ebe0446d0646a14ba9884882c69fbee8a2b39fd2c7f9e50c4fa428
 
 Package: libgnutls-static
 Architecture: aarch64
-Installed-Size: 3772
+Installed-Size: 3776
 Maintainer: @termux
 Version: 3.8.5
 Homepage: https://www.gnutls.org/
 Depends: libgnutls (= 3.8.5)
 Description: Static libraries for libgnutls
 Filename: dists/stable/main/binary-aarch64/libgnutls-static_3.8.5_aarch64.deb
-Size: 790508
-MD5Sum: d28544efb20dc0344c19a4c124d44b3b
-SHA1: 1f8ec421ea681e98831fcf75ae6531acea29c18d
-SHA256: 66d8fcaee4f6c7d3690c286827cdc06335f4342724a5ae4190b4cfffabb5f966
-SHA512: 61df44f38d946fffcd7847a61aa81bc557f6d77e733296cd2e0ff159fb08b180237adf12dee4a5d0ea890ba35ca2555489ed9e085488b9e0de4850a6e1d48a66
+Size: 791224
+MD5Sum: dbc8512c7a6eb9f501c22992ef4c5f52
+SHA1: 6e06f0337af3ff922c1b2e966e409d46307acb99
+SHA256: 022d441ac62a2cdaa9688b43214e6123a30c16195566f39a86171a46dd5661ec
+SHA512: 605f226d0756edf45a4b4f41c43639df6b17aa2abe1da370d2ca601854f88f65fd4eb6ad7936aad56572215d8275804037d1ca37d514e0dc6978767bb15c7f17
 
 Package: libgnutls
 Architecture: aarch64
@@ -1134,11 +1331,42 @@ Depends: libc++, libgmp, libnettle, ca-certificates, libidn2, libunbound, libuni
 Replaces: libgnutls-dev
 Description: Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them
 Filename: dists/stable/main/binary-aarch64/libgnutls_3.8.5_aarch64.deb
-Size: 729000
-MD5Sum: 8446d7903b2b63f489f3da8aa086f2da
-SHA1: 6a94d59a77c612f498e06187af957be421bf7761
-SHA256: 9618e1f6dddfb5ccb2450c490a27a910cd6f7ac7f943249990444136b3dfe075
-SHA512: 9e21890e67b8375db48297f2236d7fcffa93e2e71280030e0f6782fa812912bbce127f0e9798f30bd0eb121b8bf3dae04cd69ce7315a3d86071c0be6abee71d1
+Size: 732584
+MD5Sum: 8bd993729e5e4ce49632c7089a3eb779
+SHA1: 19f3f1cf5c60ba49e9841ea5a5be43382e56b2fb
+SHA256: c4dd7dffeb61e3740fc99811a45782e3966d676d16857c655a6e7f138d0e0e6b
+SHA512: 82d62de0cd0c10cb6c83ff976ca3fafe8fe2bbc73b6ff8d1cb81b45595ab83b01dad3b95a4bf19204696593ce248f841c1b680d2ccec507a932f47a77d05bb89
+
+Package: libgpg-error-static
+Architecture: aarch64
+Installed-Size: 276
+Maintainer: @termux
+Version: 1.49
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
+Depends: libgpg-error (= 1.49)
+Description: Static libraries for libgpg-error
+Filename: dists/stable/main/binary-aarch64/libgpg-error-static_1.49_aarch64.deb
+Size: 60436
+MD5Sum: 6d950430758276a2fcbb6046634b72e5
+SHA1: a009d656cfaabc7e3a5c00ad306c580eb71709d8
+SHA256: 17c40ae54b88d271b7ad019bc8b90ac710b711197917b1f3f8aeb4fdea9c33af
+SHA512: 2f395a8d64141ef1e9e3a591a1984dfb133a54fd520192f4ff43ff75b5305996ff183a63d59f451842f98f184f01e328e1ce50b781e03d99752892deb6c40443
+
+Package: libgpg-error
+Architecture: aarch64
+Installed-Size: 572
+Maintainer: @termux
+Version: 1.49
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
+Breaks: libgpg-error-dev
+Replaces: libgpg-error-dev
+Description: Small library that defines common error values for all GnuPG components
+Filename: dists/stable/main/binary-aarch64/libgpg-error_1.49_aarch64.deb
+Size: 114104
+MD5Sum: 3c42d8b7a3f9dd62da43065da4d2f8b6
+SHA1: 04ca768fd3298cd43468e47b308fa18e6e9a36e7
+SHA256: d1868f21021f54a56bf28712cebb60d815921e6c2bd604045e5117240e6d0ada
+SHA512: b9a500ed8ddaef904bb52c472009c76330df0ba86427335a22401eb43797602f865d72b0c5f4f9a75243032cca750bfd43895438d898e862efb5efbe2eab2d5b
 
 Package: libice-static
 Architecture: aarch64
@@ -1278,6 +1506,38 @@ SHA1: beed46cabd1cdc3157b4c6bf9e13dc488934a5b9
 SHA256: d7adc10f9d82db353a2a1a0e1e33a9930652cac0d54d82ac0cc0e026eb1edc8e
 SHA512: 0f398f31c61a09a2ff89d3f164de0feb57c9a76fe5666e79708f5c565d442cef44607f074b7e93879e8368e4d34d120f7ac9337ac82b6395f8e5a05f1ae1c2bb
 
+Package: libksba-static
+Architecture: aarch64
+Installed-Size: 424
+Maintainer: @termux
+Version: 1.6.7
+Homepage: https://gnupg.org/related_software/libksba/
+Depends: libksba (= 1.6.7)
+Description: Static libraries for libksba
+Filename: dists/stable/main/binary-aarch64/libksba-static_1.6.7_aarch64.deb
+Size: 91884
+MD5Sum: 4e429f0105ad6e3d90d5e3f418bcc85a
+SHA1: 503df6a017d9a7b77f516ea8cd42cd8280591ae1
+SHA256: 142a2ab2d58780162cc031c10da1211c037ebb9cdcce801f54cbf792f2fe8bda
+SHA512: bd57e4876c0d91652282c1cca2b37f05e343d396333c2fd1b4290122b6690873a4704541ec871ad809b7ff8ad6cc1158900b706b07ff2a072593eec56c879c9e
+
+Package: libksba
+Architecture: aarch64
+Installed-Size: 408
+Maintainer: @termux
+Version: 1.6.7
+Homepage: https://gnupg.org/related_software/libksba/
+Breaks: libksba-dev
+Depends: libgpg-error
+Replaces: libksba-dev
+Description: Library for using X.509 certificates and CMS (Cryptographic Message Syntax) easily accessible
+Filename: dists/stable/main/binary-aarch64/libksba_1.6.7_aarch64.deb
+Size: 106132
+MD5Sum: ef8cb7ac04d6507709c6eb7e77de0421
+SHA1: 466aa3c0c1c0aa047bc8e19d6e3d90e106788cb5
+SHA256: 85ae52b9d53c50086fe3128fd4ec759aa559c7c4a731f84aeb72a4ac7a108b08
+SHA512: 445f36e89a42aed252f96ac674393bf09927ce8dcec01a1240db4ece826ceea5da1609417879f3742a51c097edc52e10289d59b3e9fda5bf1121823cb39b018a
+
 Package: liblz4
 Architecture: aarch64
 Installed-Size: 324
@@ -1325,6 +1585,35 @@ MD5Sum: 09c2ea468b05d36bf6312e4c1808ea7f
 SHA1: adb3b1e8c3bc281a17264c7512be44376ae02d99
 SHA256: bf612bd0cafb28802f329f7dd39b13e4ed3c32804c7b28384b3dcc5f3758a2af
 SHA512: d1727c27ac1158a5eaae89cf9215901e69dcd6a00eb543b17a41c0597df359091b1fad4ccf8161a9d0bd629e73598d72447965127fa8919d3bc03da7af1f80b9
+
+Package: libmd-static
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 1.1.0
+Homepage: https://www.hadrons.org/software/libmd/
+Depends: libmd (= 1.1.0)
+Description: Static libraries for libmd
+Filename: dists/stable/main/binary-aarch64/libmd-static_1.1.0_aarch64.deb
+Size: 18204
+MD5Sum: 33aadad911be70eebb1f04b5c2663441
+SHA1: cf0524820e1c123268912848377c6044926e3efc
+SHA256: a6f542f1fd4423a04a8a15104c9604b1fa26dd3598a341bedfdf1335ada650a3
+SHA512: ca4516476294e6de4e258e764b9c81ffb2af0e622c2455e01828327f2c9bd34a8dcbe151bce37c7d8f77c909d4d94c8c4eeff9bd7e0f246d35087a2d09714e27
+
+Package: libmd
+Architecture: aarch64
+Installed-Size: 188
+Maintainer: @termux
+Version: 1.1.0
+Homepage: https://www.hadrons.org/software/libmd/
+Description: Message Digest functions from BSD systems
+Filename: dists/stable/main/binary-aarch64/libmd_1.1.0_aarch64.deb
+Size: 40752
+MD5Sum: 7f141738514bf3c234df37cb57dbd908
+SHA1: f430cfe5abccf5079adde3b6a9d6f8063e2b8c45
+SHA256: 5b53c3ac5acf3f28cc962e07f0158160dd955efb18235c1de0369a14b569c79a
+SHA512: e9d31a57141a40d9b9215c56a1e17114ee61c279fad64e7fbcac37ae1bd144900db45c7812283f4fda7041462489b1ebee6b994232b8b01fb95023f004e8bd88
 
 Package: libmount
 Architecture: aarch64
@@ -1465,6 +1754,37 @@ MD5Sum: 800105ab601178fa18f1c4af3eef190b
 SHA1: 3c0c059b13cbba0b7b3c2340019dcfe27153cb1f
 SHA256: 59c91fa55cceae4cbbbe3e6bb655d43d1d83df210074813fee0e4eb1266d293b
 SHA512: f42edd6c2cd8e9a28ed1fe4e168e31cedbcf9240f8ccadb6293362bb8a73d7c42a25dd9c6d0daad07a4e21f534bbb9b26ef1d1ad08b314b416c0dba9fbf02033
+
+Package: libnpth-static
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: @termux
+Version: 1.6-2
+Homepage: https://www.gnupg.org/related_software/npth/
+Depends: libnpth (= 1.6-2)
+Description: Static libraries for libnpth
+Filename: dists/stable/main/binary-aarch64/libnpth-static_1.6-2_aarch64.deb
+Size: 4708
+MD5Sum: 36aaa01cc945f75d267a85d58b39a3cf
+SHA1: b52a6c6a07bbc6544e20745f21d36eebbe36c2f1
+SHA256: a383b4f06b6eda03912d99853aca68c51231d63710f16df29f48de1145272424
+SHA512: 99f4b363ba0c67f7cd7cfa2435e5c8d7134bc37441febd74953ecbc8dd3a95a989a6e0dacfd12688872252cde94917089c234390aaa93b6622abc7698f895e48
+
+Package: libnpth
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: @termux
+Version: 1.6-2
+Homepage: https://www.gnupg.org/related_software/npth/
+Breaks: libnpth-dev
+Replaces: libnpth-dev
+Description: New GNU Portable Threads Library
+Filename: dists/stable/main/binary-aarch64/libnpth_1.6-2_aarch64.deb
+Size: 11196
+MD5Sum: d2164b31f74bece7f2ff3258bb92120d
+SHA1: 663e96cbd3a61a51d678ca9a8a87250b52728dcc
+SHA256: aec3f6474e2534e39bdc4ceb36ab6997ff219c7dc3516c459ce1646819d1db9c
+SHA512: 10d3461e711afa9bb538e240d01f0af6c61fcb33275184d990a9433d5249a59193d958d626eef9c3efed156874394acea040823d4f7a64ecc2a849abac111ef5
 
 Package: libpng-static
 Architecture: aarch64
@@ -1748,6 +2068,37 @@ SHA1: d24fe65628485bea9a2c5493b0432373d2d5d223
 SHA256: e3a5f76bc056e82a8e52dc7f35e3fe6a21da63e9bc0d5cf00357515e62acdbc0
 SHA512: a61c90f8c6c563675815ce31930767a5a5add73e7cfa17e6cb99705408e4e6b19745a2aad5d8382434c2d3446ef284699d2e17e301eb82ec7484ea46c1d5a041
 
+Package: libusb-static
+Architecture: aarch64
+Installed-Size: 232
+Maintainer: @termux
+Version: 1.0.27
+Homepage: https://libusb.info/
+Depends: libusb (= 1.0.27)
+Description: Static libraries for libusb
+Filename: dists/stable/main/binary-aarch64/libusb-static_1.0.27_aarch64.deb
+Size: 46624
+MD5Sum: d99369af2e10b432c78f36cfe072a1b1
+SHA1: 1f51425d2422539e6666c6751e5d3242f7bd1578
+SHA256: a2abf289bc0076081c4db1a620d90966a03f7c61554316c71a732e1c8b6db0ce
+SHA512: 3237777c8e858c37b85cab6b77fb4495a6a8d560ad823e1c43446dffea95294cf93336c9777c46dc415b121ebb01841eb1305cc60e540394413a6e1766641ea6
+
+Package: libusb
+Architecture: aarch64
+Installed-Size: 248
+Maintainer: @termux
+Version: 1.0.27
+Homepage: https://libusb.info/
+Breaks: libusb-dev
+Replaces: libusb-dev
+Description: A C library that provides generic access to USB devices
+Filename: dists/stable/main/binary-aarch64/libusb_1.0.27_aarch64.deb
+Size: 57824
+MD5Sum: e909134fcff32571fe2f8fb8cb859f5d
+SHA1: 824a244001a97a6ee677ba40c390d14a5cd2746a
+SHA256: b484afb46d76b467fb1ca8f0791a587bf0285e3368888c2dbebf947d7fba270c
+SHA512: f371707b65111484300774164485ef879d0f53166f2c575bee760db7f42ef9e529883e2bc98bdccc56d570bea1fd0344bad54b01fb011e983af4564defaa03e0
+
 Package: libuuid
 Architecture: aarch64
 Installed-Size: 76
@@ -2004,6 +2355,83 @@ SHA1: 4b4d9fba0a7f71a510e74fa60dba54c6e47ddbb6
 SHA256: 857bc2590240c27a70a73084fe90358b1dc9d9f6754f9d3b7ae0b6a7d374b21d
 SHA512: 886c4f616a973ef44814f5b5aa201de2c05df748cb37cf20978cb1814417f7a201877d666b661902b65a03e353095ec8d8326e96a8a97c7d35774564fa1de339
 
+Package: libxml2-python-static
+Architecture: aarch64
+Installed-Size: 632
+Maintainer: @termux
+Version: 2.13.2
+Homepage: http://www.xmlsoft.org
+Depends: libxml2-python, libxml2 (= 2.13.2)
+Description: Static libraries for libxml2-python
+Filename: dists/stable/main/binary-aarch64/libxml2-python-static_2.13.2_aarch64.deb
+Size: 72740
+MD5Sum: 7fbfcb033be30545a2e3cc6b7017304f
+SHA1: 2d73dd189dcdbd392a37a0dfbed572957f3e12ff
+SHA256: 0450628d0ef6d28b4f629475714482616e208877c8caea6003e39e06560bdaf4
+SHA512: 8ad7fa9b99222380c5561a62640b62b7a17b5f1563dd0e0707f25cdceb1abd25af2f6719b4901963f56492041009f563ed18f32dc667a3c12486b5c6e2707347
+
+Package: libxml2-python
+Architecture: aarch64
+Installed-Size: 1816
+Maintainer: @termux
+Version: 2.13.2
+Homepage: http://www.xmlsoft.org
+Depends: python, libxml2 (= 2.13.2)
+Description: Python bindings for libxml2
+Filename: dists/stable/main/binary-aarch64/libxml2-python_2.13.2_aarch64.deb
+Size: 194444
+MD5Sum: 4b49d29df22cca2589a3d445d6035ff0
+SHA1: fe967becafb6b83a4da9f850bb7e63ea17604123
+SHA256: f2afeaf1a553135ad80a8af98c3178f46124f2af1fdb2e9a152a1c0954328169
+SHA512: 5121221ba6c26fbb96c2c98195fbf13a30e878578488a6eb4d37c8dea4bf7808c4d0872a9ebef2cf7ee48f3bf3f1538fedf7953a858fbb759133878100a08f5b
+
+Package: libxml2-static
+Architecture: aarch64
+Installed-Size: 1996
+Maintainer: @termux
+Version: 2.13.2
+Homepage: http://www.xmlsoft.org
+Depends: libxml2 (= 2.13.2)
+Description: Static libraries for libxml2
+Filename: dists/stable/main/binary-aarch64/libxml2-static_2.13.2_aarch64.deb
+Size: 454904
+MD5Sum: 940358d0931abf40aaac3473e619654f
+SHA1: bb26372331a3de01e5b5e87dc1ee6dd5b0aad699
+SHA256: 2e2776073cac35f5af2047a5f5ff5267624b1e31b3dac07ec80a4892482b3709
+SHA512: 10966e5a5234e5c26610dd94cdce8b05fc271334cec7aa7585a2c06feda89f2c118f802122a46a238e719e7cf1e102f60262d7b2404cee90febcfd5fc0f9f7d9
+
+Package: libxml2-utils
+Architecture: aarch64
+Installed-Size: 128
+Maintainer: @termux
+Version: 2.13.2
+Homepage: http://www.xmlsoft.org
+Depends: libxml2 (= 2.13.2)
+Description: XML utilities
+Filename: dists/stable/main/binary-aarch64/libxml2-utils_2.13.2_aarch64.deb
+Size: 31000
+MD5Sum: 5fb8831836492f72d70cac0c4375b05f
+SHA1: d19f1734ecff2aa0a930389ca56c9dce54530c3a
+SHA256: 93b90eb2a4f3e6b9734fa4ae43dbf5e2d6754f4fe1e283cd0a20f3bba7ec2f8e
+SHA512: 3ecc00bb9e7498e21672c2c9346f1c23d9f456109edf935c08aedadc3cd4879e51cdc2ca4145b8722af70eadee9ff9aff0b64ad46e34b96217d71a027276004d
+
+Package: libxml2
+Architecture: aarch64
+Installed-Size: 1840
+Maintainer: @termux
+Version: 2.13.2
+Homepage: http://www.xmlsoft.org
+Breaks: libxml2-dev
+Depends: libiconv, liblzma, zlib
+Replaces: libxml2-dev
+Description: Library for parsing XML documents
+Filename: dists/stable/main/binary-aarch64/libxml2_2.13.2_aarch64.deb
+Size: 467512
+MD5Sum: a3a90bf0151fc959ca0d589bfd742062
+SHA1: 2c1ff773cb103dad224738ae34ab6198863f9fb5
+SHA256: 110e0edc5cd55c12c83d5488eed8fb9c8d64287fa3aaea68dd5805de761da950
+SHA512: 4681f31f85b2cd1106e53b19fd33377aa5df6b1592206ad35783845163b088ecc9669ec552289d25a43983614747a798666f58a0a172ec95879304eb53eaa8bd
+
 Package: libxrandr-static
 Architecture: aarch64
 Installed-Size: 100
@@ -2063,6 +2491,23 @@ MD5Sum: 80bf67abb3227edf75802e06029b6d72
 SHA1: 6ac900b571425e072845e97c37f9a78d52ffcb64
 SHA256: 79ee85316876076ea72694eca7df29e3e7081ce8c7b25121fcdf01590e97acfa
 SHA512: ed36590db2654447ee4bc77b12368389d5254cedc4b0b3ea7172c24774be6a9a6b97e4d9fa1b76853ce11eb5f5f627679c1ec6cec3665cb9c574e4702cedf157
+
+Package: libxslt
+Architecture: aarch64
+Installed-Size: 1800
+Maintainer: @termux
+Version: 1.1.40
+Homepage: http://xmlsoft.org/libxslt/
+Breaks: libxslt-dev
+Depends: libgcrypt, libgpg-error, libxml2, libandroid-glob
+Replaces: libxslt-dev
+Description: XSLT processing library
+Filename: dists/stable/main/binary-aarch64/libxslt_1.1.40_aarch64.deb
+Size: 229080
+MD5Sum: fba3efc373a7c7648ab43f8a2c20958e
+SHA1: 1e8632fcc2c9bc5a59a7b740c5f23a53aab83de0
+SHA256: bf5314e3fe6f63f309e8656c0ae242b009b501cba703c2b6e5d6a93a55be20c5
+SHA512: fb0416b1f90920512f2e32dd7f393f366040ae55a154992d4b19d2b338637aacfad4a8ecd453aea6ea132203865be3dd9b522a77cc37770f2ee2ac2014b49258
 
 Package: libxss-static
 Architecture: aarch64
@@ -2199,6 +2644,23 @@ SHA1: 0f4c6fb67f05c961df59d1deb7575e84d58cc78b
 SHA256: 19203ea37d15538150441f614b8c3d443aedeea22fd49aa0bf8859df1e98096d
 SHA512: 270e2cc2b21dc995358f64c807cc942657e7ab9686c0c27c73104a6c7385af407ec64ffcb1590e4793d706878b7cec691184dba7406a2a93452a18da03598515
 
+Package: make
+Architecture: aarch64
+Installed-Size: 948
+Maintainer: @termux
+Version: 4.4.1
+Homepage: https://www.gnu.org/software/make/
+Breaks: make-dev
+Conflicts: make-guile
+Replaces: make-dev
+Description: Tool to control the generation of non-source files from source files
+Filename: dists/stable/main/binary-aarch64/make_4.4.1_aarch64.deb
+Size: 240864
+MD5Sum: 5cf2fe2027911aabdeccbd4d730daba1
+SHA1: 2464e4fa39a962d8c36b27a383aff822ccc70a18
+SHA256: 7c6253f9b752d50e319e18002adbcd26ede4cf13a09eb7a28630dd400817757c
+SHA512: 22a8e936c3fff9d755123be67f0f5f3190f42d51d3abb814a0204997168513850142ae57df1d2652b5ad8a63d2ce9f0d2bac8d9a2a39870e8ab3aae72ef5dfad
+
 Package: mount-utils
 Architecture: aarch64
 Installed-Size: 492
@@ -2239,11 +2701,11 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses (= 6.4.20231001-4)
 Description: Static libraries for ncurses
 Filename: dists/stable/main/binary-aarch64/ncurses-static_6.4.20231001-4_aarch64.deb
-Size: 155296
-MD5Sum: c12ce86eeb29c2a75e809a9aad43e131
-SHA1: 348f5408cb2069c87b637dabed2341e7b7f00659
-SHA256: f9cc5d6da9c66af463c180a2518be03bddaf08739182c6934a372bb94861e5c5
-SHA512: af44f848d7843c8e22100df82db8e6bfaad68d15502de402c0f1f81ecd0b16d48e4d72cea23c374fb538ee2c0a6ca15351ab89e5a7c9f8d820ff70531b28530e
+Size: 155216
+MD5Sum: d3952fbb133b9bc85c42ba9c3624b414
+SHA1: 2f0b76ff259c036af7e8580906cd2523d56ff82c
+SHA256: 62697dc436ee1fcc8397450d47e8d9ed6bf480e4933fe7e9725dc372f276341a
+SHA512: a93bcef2fbd473d96ac9b4d71649007b7e13fa0fdbf23d615db3ed19336094a85d0994b127ac25002fbac76394cf5a39821e05f03926f7d8b1bee485085080cb
 
 Package: ncurses-ui-libs-static
 Architecture: aarch64
@@ -2254,11 +2716,11 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses-ui-libs, ncurses (= 6.4.20231001-4)
 Description: Static libraries for terminal user interfaces based on ncurses
 Filename: dists/stable/main/binary-aarch64/ncurses-ui-libs-static_6.4.20231001-4_aarch64.deb
-Size: 39640
-MD5Sum: d2766d4291e16b1328771dde68d4ecfa
-SHA1: 3204c137508c364c193cb63df984aed828204c07
-SHA256: 80383efc83a8e0cb3e3ef9263a253235d001d1f1d41b2a644c3ac49f413d9cbc
-SHA512: f7b63cb5e7d8a6c7e0612e66885db6cb33692c75cc98ec59ec64e23b10d41a0d8c26e2af90ecac19860a527cf5749b8615d83da352179d519299e613b6b83c88
+Size: 39656
+MD5Sum: 56dec82238b5fd156637c9d72725aa84
+SHA1: ee571b0a18c927ba93858fca6246a447da2787aa
+SHA256: b4bf83e78e7e93b799b20ba1ec463ff9d69fb8f2197c82b32bc06f62d6e93b3e
+SHA512: 270bd9a68faaed492c42fd87d6416ae6109f177fdcbcf4d0961c687953e3e858ae39f85b6848dcbb675e2122377f6e04a348810a3da038c9cb4ad26df9744495
 
 Package: ncurses-ui-libs
 Architecture: aarch64
@@ -2294,7 +2756,7 @@ SHA512: 5ae39a16bf80e614e83ef8cb36dc25ad7fcf0383143d7bce75a4f1b2eb459a992f77a5ca
 
 Package: ncurses
 Architecture: aarch64
-Installed-Size: 1564
+Installed-Size: 1568
 Maintainer: @termux
 Version: 6.4.20231001-4
 Homepage: https://invisible-island.net/ncurses/
@@ -2303,10 +2765,10 @@ Replaces: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Description: Library for text-based user interfaces in a terminal-independent manner
 Filename: dists/stable/main/binary-aarch64/ncurses_6.4.20231001-4_aarch64.deb
 Size: 520544
-MD5Sum: 882c28cb94841a9b99a4770dd9d7153f
-SHA1: f2397e048d4a0b165c9d38a888bee2e427abef39
-SHA256: 5e958f135ef57438cbcb3dab7044399e9f6ee468c9ed56c95a06615b47b77d21
-SHA512: c04185bfa39c43e782268b2d72f12d98a3c6cd6485bff9f48f682ed2ff3c5bdb5bf030338152512e1c5f3e5baf0406dd76a456478234cc75aae7da6c44fcb9a5
+MD5Sum: 477e75515db1b72014a992ffefa3f916
+SHA1: d757ec08a7fdef61a4165950d5d6fe98daca2291
+SHA256: f1f06260e81591a6d7127a87bb3e02c24aa15aa289c1e1a1a21c2a89f1211a5b
+SHA512: 27469dea689331a517168f6652675020d124415588afbc0d3aef999f283f710c791f82cdf8f17b43aec3d912552766b25d37eabed3b56617cd461497bd3317d5
 
 Package: net-tools
 Architecture: aarch64
@@ -2377,6 +2839,21 @@ Version: 1:3.2.1-1
 Homepage: https://www.openssl.org/
 Depends: openssl (= 1:3.2.1-1)
 Description: Static libraries for openssl
+Filename: dists/stable/main/binary-aarch64/openssl-static_1:3.2.1-1_aarch64.deb
+Size: 2408180
+MD5Sum: 19ceaf6304b70a684949097d922c6df3
+SHA1: 547be07dd6eae4ecbc889db403f2de832d19bbae
+SHA256: 51816268d3317f52dddce88765fa32e11c8857bf723ac94794ea07352947e3f5
+SHA512: 8caab90b90ae4a0d0621951e77ee54b9b22db6ab75bbc2c974382ad9a418a5b9de9daa79c4d895cf0c9312f1df850ae18547c4de7b6a20479af996f90fd00fe5
+
+Package: openssl-static
+Architecture: aarch64
+Installed-Size: 10560
+Maintainer: @termux
+Version: 1:3.2.1-1
+Homepage: https://www.openssl.org/
+Depends: openssl (= 1:3.2.1-1)
+Description: Static libraries for openssl
 Filename: dists/stable/main/binary-aarch64/openssl-static_1_3.2.1-1_aarch64.deb
 Size: 2408180
 MD5Sum: 19ceaf6304b70a684949097d922c6df3
@@ -2392,12 +2869,45 @@ Version: 1:3.2.1-1
 Homepage: https://www.openssl.org/
 Depends: openssl (= 1:3.2.1-1)
 Description: The openssl command line cryptographic tool
+Filename: dists/stable/main/binary-aarch64/openssl-tool_1:3.2.1-1_aarch64.deb
+Size: 259900
+MD5Sum: 60787997858370780565503c4caad00c
+SHA1: 01ae931889fcdffa733543c1fbbccbf98029f3e5
+SHA256: 48d3e7bc8676f15903e4f148dd8773663dbb507a6f3110fa85c7a9aa16fe991e
+SHA512: 40c0b0f2db44f9a6f09934e600ad6578ae05cd1aa8b3a83ddff8e212aa4133626a36490c944bce309013e620dab728401aa99f1de424c4546bdb74f4dfb5eeb7
+
+Package: openssl-tool
+Architecture: aarch64
+Installed-Size: 912
+Maintainer: @termux
+Version: 1:3.2.1-1
+Homepage: https://www.openssl.org/
+Depends: openssl (= 1:3.2.1-1)
+Description: The openssl command line cryptographic tool
 Filename: dists/stable/main/binary-aarch64/openssl-tool_1_3.2.1-1_aarch64.deb
 Size: 259900
 MD5Sum: 60787997858370780565503c4caad00c
 SHA1: 01ae931889fcdffa733543c1fbbccbf98029f3e5
 SHA256: 48d3e7bc8676f15903e4f148dd8773663dbb507a6f3110fa85c7a9aa16fe991e
 SHA512: 40c0b0f2db44f9a6f09934e600ad6578ae05cd1aa8b3a83ddff8e212aa4133626a36490c944bce309013e620dab728401aa99f1de424c4546bdb74f4dfb5eeb7
+
+Package: openssl
+Architecture: aarch64
+Installed-Size: 7672
+Maintainer: @termux
+Version: 1:3.2.1-1
+Homepage: https://www.openssl.org/
+Breaks: openssl-tool (<< 1.1.1b-1), openssl-dev
+Depends: ca-certificates, zlib
+Conflicts: libcurl (<< 7.61.0-1)
+Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+Filename: dists/stable/main/binary-aarch64/openssl_1:3.2.1-1_aarch64.deb
+Size: 2292188
+MD5Sum: de4c655dbdc3a0ba0073fc6d31083bc1
+SHA1: 832b0a5bb26c31364053ab08a1464378abedb87c
+SHA256: d26c12f456adee2149393ef65008a950e180bba64a799f5eb6faed0ef8736e65
+SHA512: 2edd7c81bb6030912d3fd3cbe7264f185b242b8e35d527e52559f71a3ceb9fa76e9daffe2295343e53b1cf6648a490353c02b571d7f4345efd952f0fe95b6f00
 
 Package: openssl
 Architecture: aarch64
@@ -2479,18 +2989,33 @@ SHA512: 48705a07a5130b99b4724e6b3bc30aaaa6430357eb4d819690f4a1b8640d0e280d4ad4f7
 
 Package: perl
 Architecture: aarch64
-Installed-Size: 67752
+Installed-Size: 67756
 Maintainer: @termux
 Version: 5.38.2-3
 Homepage: https://www.perl.org/
 Depends: libandroid-utimes
 Description: Capable, feature-rich programming language
 Filename: dists/stable/main/binary-aarch64/perl_5.38.2-3_aarch64.deb
-Size: 14235136
-MD5Sum: 4261011b414abd0202f3284c6cb3639d
-SHA1: 983995683c8f571a324f881aa5e10f9f712d3de4
-SHA256: 8cefc8dcfe15315ae415906cd183287d446998084236df4be7e8ce67d558475a
-SHA512: b22b7e6bf2a3897759c8940d547c9e7a97aab4d510d2190f4b9d8244f7d1d5d96ee8c3126d387416425eb92933cd9d7c5568607f3c35d7d22cc0fbc13c776841
+Size: 14235132
+MD5Sum: 4919213f667a319f180cd8fba1d20ea9
+SHA1: 0d89c02db79ca056e6c60324319d288f408049af
+SHA256: 175944196f433e7aed4ce6da45bcd23eb679f4650006a22351504761c9d0b036
+SHA512: 43bbb1e414a4d7c0ac1fd12ca81eef5d0850883cda2984454db007b55dd0265717b825f727bd7801c061ccd15ef00ff009a1bee16da8530fcff6e1a0bd9e67ae
+
+Package: pinentry
+Architecture: aarch64
+Installed-Size: 208
+Maintainer: @termux
+Version: 1.3.0
+Homepage: https://www.gnupg.org/related_software/pinentry/index.html
+Depends: libandroid-support, libassuan, libgpg-error, libiconv, ncurses
+Description: Dialog allowing secure password entry
+Filename: dists/stable/main/binary-aarch64/pinentry_1.3.0_aarch64.deb
+Size: 47064
+MD5Sum: 67d4630e09efd97ae752c4236d0695dc
+SHA1: c6783674a723d2192b04323217df555f4f116011
+SHA256: 928a2160f497c6a0c8715ad064066b931ab1c66f7e69a256841744a1d78c7712
+SHA512: 25590386ffd46581d8108bdd520eab5c7fa43ae779c198db08d0d6d788aeb9ff83833d468c05bf96cad351491c4776417a4e7c833a8750b214f3572e3f636b65
 
 Package: procps-static
 Architecture: aarch64
@@ -2603,11 +3128,11 @@ Provides: python3
 Suggests: python-tkinter
 Description: Python 3 programming language intended to enable clear programs
 Filename: dists/stable/main/binary-aarch64/python_3.11.9-2_aarch64.deb
-Size: 7754284
-MD5Sum: 753084764eba30004e75e9c8b7310363
-SHA1: 445ccc38b23f13900daf07f38399e1fdb63efde9
-SHA256: f9e70d7715a9dabc1d9d6d516dc71c62349a9021dda043d8d2cc80f67bbcc8bb
-SHA512: 77671a2460a954e624d82bd01e761f65e80750c47d9353a34d73d836939c32a20b43a27074807bdd6276b3996b39f5c865e04c814b04cee19aab5f2a28d10f91
+Size: 7752656
+MD5Sum: 281b267be25e5f7ec796e0df54c026c7
+SHA1: ec1644ac0623bf85d0baddd35a0c922f27cc03f4
+SHA256: 05c5ba0e6caf4758b8953dbde6b5035359da25c81d269b58e529c5a81fa5a2a1
+SHA512: fa1011e6b58d3236a997a96f164796ce61bca792f4f8d303babdc0535bd63a474ef85b79a7c8e193d65c7fdfecd7e334e87d561898ecbe035833f1681a90c63e
 
 Package: pyunbound
 Architecture: aarch64
@@ -2624,6 +3149,21 @@ MD5Sum: fc85fac73407c7a4826332d49926a73c
 SHA1: 35db35c8aaaa47047321962aad8a50562fbcfeab
 SHA256: 13263d89b5416ad5017095acd7649117ba4d4a51e2e7cf22e3d19e738dcff087
 SHA512: 077fa2fa60a898d465c73397d486153313cc322146810690c11da669bd3a9c2f053bb8f96df060244ee2dc305b1be27eed7f50699948aa3269552a6f607926e8
+
+Package: pzstd
+Architecture: aarch64
+Installed-Size: 160
+Maintainer: @termux
+Version: 1.5.6
+Homepage: https://github.com/facebook/zstd
+Depends: libc++, zstd (= 1.5.6)
+Description: A Pigz-like tool for Zstandard
+Filename: dists/stable/main/binary-aarch64/pzstd_1.5.6_aarch64.deb
+Size: 40516
+MD5Sum: 577104c5bbd1d1966586df421bce87d0
+SHA1: dea8a715c67768d53550aaa0369a3b2c62b513a4
+SHA256: 9bccc304f5c683ccb66c871f8fb9b718a6cd009adf3a069fc1bfc888fff8ba13
+SHA512: d524f252ac17236d784c423aa0d9b927574be7ada070eaf922b283e48a9751f4b657422013eef0319c53f371e7a0f531befcc2d84d3f8602a4c113162eee0d52
 
 Package: readline-static
 Architecture: aarch64
@@ -2670,6 +3210,23 @@ MD5Sum: 60ea972a4add927dd39aad4eae7fce9c
 SHA1: 8adc4cdd03013222e32a96672d0cc420f87cb334
 SHA256: bf0b7b564552dd41babc86bcb47f16c133296be007714be60f473f9763ef73ce
 SHA512: aee44533a5b01818f8ab823dd9984277d1bfb5162025cc1adcc6802536393e790edf9487e9c0d2ae6382c74b2749e43553d2cff36e1b9bda4a0caebfe9bc9937
+
+Package: scdaemon
+Architecture: aarch64
+Installed-Size: 516
+Maintainer: @termux
+Version: 2.4.5-1
+Homepage: https://www.gnupg.org/
+Depends: libgcrypt, libksba, libgpg-error, libassuan, libnpth, libusb, gnupg (= 2.4.5-1)
+Conflicts: gnupg (<< 2.3.3-2)
+Replaces: gnupg (<< 2.3.3-2)
+Description: Daemon invoked by gpg to manage smartcards
+Filename: dists/stable/main/binary-aarch64/scdaemon_2.4.5-1_aarch64.deb
+Size: 186372
+MD5Sum: 1e9118e1da8676bb2aaa906eed1246bb
+SHA1: 2a1e2d6627299768cf4f90f4b862e11fafae037a
+SHA256: 462ef1c68e349e75824cdcef0291b13ed9cc78c0db8d3f8ae3da97e09a8b97fc
+SHA512: ef3b376d2d9a0cb722b240bf4d26b7f26673a5e88ca5db8cd35c4198eb9aa5129107bfecb02ae614a42b8487297b18ebd317103292d4dadc6918c7840d6c950e
 
 Package: sed
 Architecture: aarch64
@@ -2888,6 +3445,21 @@ SHA1: 6526f8dd205c92401827ace56aacd1e34ed87d46
 SHA256: 7697123971f9e1e0de51c0bd62a82826765698303e792ed0e6be58d5fd760723
 SHA512: 0c58c2de04f8a7e75217e53208d9b5a62a0bfd1fa704dac24d6df08fefadee9678127cfcd1e625683f59ad29a4435a5d29eb9de76bf2ec9aae93e8b12ca169f6
 
+Package: tor
+Architecture: aarch64
+Installed-Size: 20932
+Maintainer: @termux
+Version: 0.4.8.11
+Homepage: https://www.torproject.org
+Depends: libevent, liblzma, openssl, resolv-conf, zlib
+Description: The Onion Router anonymizing overlay network
+Filename: dists/stable/main/binary-aarch64/tor_0.4.8.11_aarch64.deb
+Size: 2888692
+MD5Sum: cf973a8b4d3039dc29d1e6888dc48bdf
+SHA1: 378720bc33ff71bee98b75c0ea9a6dda43cbbd4e
+SHA256: d9e0fc3221f7f7d7437c2fe95e297b024634ed86cb8570218af51020efb131e4
+SHA512: 0ff0a24aa6072fecc997d7f285c2e01e2d7a9d9022d2b70993fc335d0587e45bfcdf854a5dfa0390d142dbf5a2896c2d082067aeda52df6dcedda33b85f2423e
+
 Package: unbound
 Architecture: aarch64
 Installed-Size: 3192
@@ -2997,6 +3569,50 @@ SHA1: a3b5525e1faaa41ab86a8b8829d2575584224c89
 SHA256: 990779cdd42ce80d4dcced20612d10eb1cc34856bc8ea6884eeb13b926d7b56b
 SHA512: d0b090926897fb4d0e62e22a0dd1bd356b5ccf017c00f4386e91fa9a89da28edf7bbba3ddc8b510dbc636c22492c48d14b9ade1dac88cc1641d84540008e54aa
 
+Package: xsltproc
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: @termux
+Version: 1.1.40
+Homepage: http://xmlsoft.org/libxslt/
+Depends: libxslt (= 1.1.40)
+Description: XSLT command line processor
+Filename: dists/stable/main/binary-aarch64/xsltproc_1.1.40_aarch64.deb
+Size: 11880
+MD5Sum: fc161e701e39e9b463544394b8da97e6
+SHA1: ee316104d14a3f76c58cfbb12246f2bbf3ab98e1
+SHA256: 07c2bb0d16f0b3ab98067d01ff6361b90b34ab86bd3521c35af98a274bfd95a1
+SHA512: 89b497f94749f0d4fdb4bac9dfa3099bdeda9c09d9fa3f211a72bc56dbbfcb240d91508073d3826b9eb2e66761574d6712f64c34cfffcc25f2d1c99ba9fb5813
+
+Package: xxhash-static
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: @termux
+Version: 0.8.2
+Homepage: https://cyan4973.github.io/xxHash/
+Depends: xxhash (= 0.8.2)
+Description: Static libraries for xxhash
+Filename: dists/stable/main/binary-aarch64/xxhash-static_0.8.2_aarch64.deb
+Size: 8816
+MD5Sum: cf7a8973cc4886fe20425a1ae0d62361
+SHA1: beef94d43507f113b5aa0fe324d23bcda6e94cdd
+SHA256: 6e439bbcb831215cec8b90e79465e4455ace2435f11b193cb3fbe07251cc252b
+SHA512: 799395430da48af139b1dd76e7fdda2a3e4976618233bed5062867458c45eb1d9d3408b0769b4f367f5d7c11127ea19c7bf7d2f64876ba8058640d4aae7bff4c
+
+Package: xxhash
+Architecture: aarch64
+Installed-Size: 388
+Maintainer: @termux
+Version: 0.8.2
+Homepage: https://cyan4973.github.io/xxHash/
+Description: Extremely fast non-cryptographic hash algorithm
+Filename: dists/stable/main/binary-aarch64/xxhash_0.8.2_aarch64.deb
+Size: 75364
+MD5Sum: 0f7adccd2fcf3e75260a9258e2bd7650
+SHA1: 6a8f3536fcedfa26ec4cacdc27de326edabac001
+SHA256: e55bc4a703009165f40da9e1460975ab2bfef5159b53baed7802da6e943696bc
+SHA512: 7d608fd4e2688a4d37828bd0d153a2bfac6f5b07c5162677e5a2b6f9cf30667f97f3a720dca231ef16d0dea288612d5e171db593f3994f4b50c8a2a4b6890c1d
+
 Package: xz-utils
 Architecture: aarch64
 Installed-Size: 224
@@ -3043,4 +3659,36 @@ MD5Sum: f99ad81289407264cacb475640787398
 SHA1: 0c36e2516040493530fee25e2dc92e6138acfebb
 SHA256: dc360a728a45b7dfa2f4b2b8c685f3cc61c2b8a75f63fc186a05e5a4a9268315
 SHA512: 4e4373768e862dd907e3829c67edb9d4f5d1369238d0349c90f57bfe8afb5bf26eaade920162cf90ce70c8d2dc2505c0d9df4b7666e0dd9502a632a73add4d41
+
+Package: zstd-static
+Architecture: aarch64
+Installed-Size: 5684
+Maintainer: @termux
+Version: 1.5.6
+Homepage: https://github.com/facebook/zstd
+Depends: zstd (= 1.5.6)
+Description: Static libraries for zstd
+Filename: dists/stable/main/binary-aarch64/zstd-static_1.5.6_aarch64.deb
+Size: 976252
+MD5Sum: fd8c5b9c8770b5dcc3f10062709afff6
+SHA1: afc160f388659c2ab6539eb432795b920dd51e05
+SHA256: 9edb387a8a85efc6719bf8dae682bae76bb1b5f71c6f4e034b8f70800e18894c
+SHA512: 35817d48b5b8f3e183e2c7081f6f441de933d37283d2ba68d3f9de04df2e78d6d3e99f804faa30a39b30275e33b3684e31b73569487f55f8d7af24af1e5efb44
+
+Package: zstd
+Architecture: aarch64
+Installed-Size: 1104
+Maintainer: @termux
+Version: 1.5.6
+Homepage: https://github.com/facebook/zstd
+Breaks: zstd-dev
+Depends: liblzma, zlib
+Replaces: zstd-dev
+Description: Zstandard compression
+Filename: dists/stable/main/binary-aarch64/zstd_1.5.6_aarch64.deb
+Size: 337296
+MD5Sum: df633085a1bfed7d2e8eef0bb74db912
+SHA1: f67baae3dd2f15fe20ff999c82a33d82783ad3c5
+SHA256: 2d81719529104762245e256a97c45b3f75cbfce2fd895eb2a9037b1dd238b7c7
+SHA512: 37f2e313a4e33a73a360a2531198424e94e51b557f7ee25c1d13a2d07004f26e229a8134e6a75fdb20d378e672b7118cd409f478c03b785c604e5e9335f400d7
 
