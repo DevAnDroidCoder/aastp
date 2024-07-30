@@ -22,11 +22,11 @@ Homepage: https://curl.se/docs/caextract.html
 Depends: ca-certificates (= 1:2024.07.02)
 Description: Common CA certificates (java keystore format)
 Filename: dists/stable/main/binary-all/ca-certificates-java_1:2024.07.02_all.deb
-Size: 114548
-MD5Sum: 1bc3a59b423d95012a0c30dddbc67601
-SHA1: 757a9795ea9382e2d8df4ea9f6b978f8ce714b63
-SHA256: 3102145e396585a721167eb1a7b9466152f76e5cb80f55eac6203e4c6574e4f3
-SHA512: 1ef24a95d41ab2def6c4493ce190b194e6469c9e60e5f5a24505ace42244c12a5e1f30b54dab1fbb29738b0f719c0f96e14faa0f490796a400c13454b01c05d7
+Size: 114564
+MD5Sum: b469b7c454047ab71e67a5bc75b1fe2d
+SHA1: 863ad4262cf2e2f02826290f5c6b004617860e56
+SHA256: 7a9f2716718ee062e09602b1492e44a6ca43effbed7e48bcd69b0b45161095bf
+SHA512: 7e4c98611faa50f04857c7f4f8f438c30e709a6d8d53db68c8c61507621f05362884318418def7e0ca351e28e57f49418d23ca16b03b6bac7ef9869c4d21ebae
 
 Package: ca-certificates-java
 Architecture: all
@@ -52,10 +52,10 @@ Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates
 Filename: dists/stable/main/binary-all/ca-certificates_1:2024.07.02_all.deb
 Size: 125304
-MD5Sum: 09c4aa014441a7f04e51b94f08d6b6d4
-SHA1: 14a6d7f112e45152da8091efce9705f1b870f575
-SHA256: 85533a6f3e3581a2fa3b800604fbd7960903ee5ee6e40ed514c4a7996182ae22
-SHA512: 69bd7309ab8b7d85031317c5f96b20e8eae35f37569c260b78f153a1260f1bac8c46e1c0135eefe2a19aed4d74b4e365b9931f9be556ffe49c014cef982c5c96
+MD5Sum: d1e4ae8e2dcdf83fd7d06ebced7f5b5d
+SHA1: a64221136833bb564f10b85de53c1533d3b317f7
+SHA256: d63ee0bb2588a09c9c521ca883852523709f349e4ecf9d7187b068a87490a1d3
+SHA512: e720dbce09b0daf53e3ed29791793f5772a9877dee496544879873e68cd702b6e25e5044709efc9d1b874fd66dbcabe1bc0b031f3152792d66821bd7ab5b98fd
 
 Package: ca-certificates
 Architecture: all
@@ -204,11 +204,11 @@ Homepage: https://github.com/termux/TermuxAm
 Conflicts: termux-tools (<< 0.51)
 Description: Android Oreo-compatible am command reimplementation
 Filename: dists/stable/main/binary-all/termux-am_0.8.0_all.deb
-Size: 577256
-MD5Sum: ccb789c7de65a4c53faa1d91dde15321
-SHA1: c5e708d3004ec95835f25bb1f414ed8529144cac
-SHA256: fd5b160938db9eb8cf60eb1a489b4b3bfedb5b0669af822538db3292eb8de1a6
-SHA512: 4c9521aee9eba4b5df44902d82ee8199180554169687e126374d15b65f714d9598ea2785cac835be173775df0543f5cdaa240fecb296694f8c85fa0a3d10149a
+Size: 577240
+MD5Sum: 4bda1afcabae54bae6f2b7d283b912ec
+SHA1: 8b8148ec4a6d2da281efe9ba830340a919b36810
+SHA256: 54be751bf1d5184555fa112142f8c9fb98fcd2f5bf13192903e415ed041e0d34
+SHA512: cabb71a587f4a3cb0c0838240759c4ec3fb84e43b39fc1bbb79804168cf587391521165c02da880799c6055220221b7c2d0ce66a045543a93a8395b3eb6b11f6
 
 Package: termux-keyring
 Architecture: all
@@ -259,6 +259,26 @@ MD5Sum: f0a87b0ccd77c0e6a582e35a2eab8eb7
 SHA1: b18308cd16fbe5dae507bcaa58274de1d77e5a9b
 SHA256: 1b447827cd87187a2cae8635a5bdbaecf0dcd168506c96e17cb14b3593603c8d
 SHA512: 526ee5111b5714ce90996b72cddda5fba085a0bb69a1128e558bb00e283cf52158d7d2c8ca58a7aed8fdedc6583cefacfe49cd5a394e1259c5a7eac8194d3043
+
+Package: termux-tools
+Architecture: all
+Installed-Size: 244
+Maintainer: @termux
+Version: 1.43.2
+Homepage: https://termux.dev/
+Breaks: termux-keyring (<< 1.9)
+Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am (>= 0.8.0), termux-am-socket (>= 1.5.0), termux-exec, util-linux, xz-utils, dialog
+Essential: yes
+Conflicts: procps (<< 3.3.15-2)
+Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
+Suggests: termux-api
+Description: Basic system tools for Termux
+Filename: dists/stable/main/binary-all/termux-tools_1.43.2_all.deb
+Size: 26488
+MD5Sum: bd874eb8135cdfb84b4aeefe3912a62b
+SHA1: 9cd5bf0334921a3a4f5e08ea7b4b6a9453d9d702
+SHA256: 285c04cf6cbccb4fcf8affc4723b0ea8477baebceab0bec325bc6d3a59f978de
+SHA512: 964c8a55bff9f47dc2e19acbc1c0c7c14974f6a6dd806eb5058c88a1d4e109c8218ecc864dc031c43679943f55d8cc7b174d63e28c766ea0d21117d11372c119
 
 Package: ttf-dejavu
 Architecture: all
