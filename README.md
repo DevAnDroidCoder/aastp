@@ -1,0 +1,1 @@
+# Hosts termux repo for android app studio
