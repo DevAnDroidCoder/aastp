@@ -1,0 +1,14 @@
+Package: ed
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 1.20.2
+Homepage: https://www.gnu.org/software/ed/
+Description: Classic UNIX line editor
+Filename: dists/stable/main/binary-aarch64/ed_1.20.2_aarch64.deb
+Size: 41492
+MD5Sum: 85b15715ba11d2bfb2b01383d92eb225
+SHA1: e67b392a96ccf17b5bc5c72432b9841dcb392116
+SHA256: c21f9b7c421f7ff2413208cdffc668ff09e32eecf271c705b7da40ee8b38c538
+SHA512: 1c411078977df477863e4890665c0929aa5244e2a0f022a0f4366604e1c8c37fbd6c81367bbd42a67003765da4c18269d742aa6ee10cc0cdf0b3641d41bbc93f
+

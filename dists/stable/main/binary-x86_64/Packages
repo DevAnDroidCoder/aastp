@@ -1,0 +1,14 @@
+Package: ed
+Architecture: x86_64
+Installed-Size: 180
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 1.20.2
+Homepage: https://www.gnu.org/software/ed/
+Description: Classic UNIX line editor
+Filename: dists/stable/main/binary-x86_64/ed_1.20.2_x86_64.deb
+Size: 43308
+MD5Sum: 12fd49bdffce180a62a133b9718d7f2e
+SHA1: 6d2c1458073daa65a8c2c60a792f08eeac3dc379
+SHA256: 88c484d96abe0ef6ea20bf677059788250b36ed4255f072ebdb663132a6a4696
+SHA512: 42129110eed4403234b207da52c521a164d886ca8fdbe1c7f1d41a1be845e13d22de9631284a962ee16ceae381f3687b2cbfeec54b5366d3d167c55e4d16c250
+

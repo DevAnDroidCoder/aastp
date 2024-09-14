@@ -1,0 +1,14 @@
+Package: ed
+Architecture: arm
+Installed-Size: 164
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 1.20.2
+Homepage: https://www.gnu.org/software/ed/
+Description: Classic UNIX line editor
+Filename: dists/stable/main/binary-arm/ed_1.20.2_arm.deb
+Size: 39028
+MD5Sum: dfa84010ec46a53711ab9ee533a1a427
+SHA1: af068078708637a291cadf1310884f523c36644b
+SHA256: a332d93620bcdd131ce16a64746c75c49f6d964de20f785b08c7de5fdd08c163
+SHA512: dc7798881ed33482681d0f6cc4e00ade16eab647313838e1c31603fb33e8c82bbc85976f3abda089bd01898026aa139a207286a75e35a69d8a86fa06c2a1fcdb
+

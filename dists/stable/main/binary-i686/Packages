@@ -1,0 +1,14 @@
+Package: ed
+Architecture: i686
+Installed-Size: 176
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 1.20.2
+Homepage: https://www.gnu.org/software/ed/
+Description: Classic UNIX line editor
+Filename: dists/stable/main/binary-i686/ed_1.20.2_i686.deb
+Size: 42580
+MD5Sum: 0fae2e84da82029d7befe892e3f0847f
+SHA1: 2ebb678dc5724fdde14572163a2967090f5a617d
+SHA256: 013886f5e546148622c10698f761fe2c03eeb6c95ae920d143b9cfa21718ccc5
+SHA512: 7dfe50ae3f58a23b8cc86a0240c16c6c129e75ea993c2d02127f04c5e3d121d3fec7c3b2c384e721e5c62d51d17c4e3b62736145c363a64950fa1b6852a417b7
+
